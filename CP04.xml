@@ -1,0 +1,3504 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>	
+<REPORT>
+	<REPORT_DATOS>
+		<ROOT> 
+			<ENTIDAD>0002</ENTIDAD>
+			<ACTIVIDAD>EMISION</ACTIVIDAD>
+			<IDIOMA>es_ES</IDIOMA>
+			<CABECERA>CABECERA_MAPFRE_2HUECOS.jpg</CABECERA>
+			<!--CODIGOPRODUCTO= SOLICITUD_TOMADOR o COLECTIVOS-->
+			<CODIGOPRODUCTO>SOLICITUD_TOMADOR</CODIGOPRODUCTO>
+			<!-- <LOGO_ACUERDO></LOGO_ACUERDO> -->
+			<!-- <ACUERDO></ACUERDO>		 -->
+
+			<SALIDAS>
+				<SALIDA>
+					<ID>LOCAL</ID>
+					<DOC>
+						<SUBDOC>
+							<ID>SOL</ID>
+							<COPIA>COPIA PARA EL local</COPIA>
+						</SUBDOC>
+					</DOC>
+				</SALIDA> 
+
+				<SALIDA>
+					<ID>GESTOR_DOCUMENTAL</ID>
+					<PROCESS_ID>1</PROCESS_ID>
+					<DOC>
+						<SUBDOC>
+							<ID>SOL</ID>
+							<COPIA>COPIA PARA EL gestor</COPIA>
+						</SUBDOC>
+					</DOC>
+				</SALIDA> 			
+				<SALIDA>
+					<ID>FIRMA_ELECTRONICA</ID>
+					<DOC>
+						<SUBDOC>
+							<ID>SOL</ID>
+							<COPIA>COPIA PARA EL firma</COPIA>
+						</SUBDOC>
+					</DOC>
+				</SALIDA>	
+			</SALIDAS>
+			<DISTRIBUCION>
+				<DUPLEX_MODE>TRUE</DUPLEX_MODE>
+				<MODULO>HP</MODULO>
+				<NUMERO_REFERENCIA>CONTROL_DE_ENTORNOS_8AM</NUMERO_REFERENCIA>
+				<LOCAL>
+					<FORMATO>OUTPUT_LOCAL.pdf</FORMATO>
+					<BLOQUEAR_IMPRESION>N</BLOQUEAR_IMPRESION>				
+				</LOCAL>
+				<GESTOR_DOCUMENTAL>
+					<GD_DOC_ID>D_TEST_0001</GD_DOC_ID>
+					<GD_SERIE_ID>S_TEST_0001</GD_SERIE_ID>
+					<GD_RUTA>cod_macroproceso,cod_entidad,cod_sector,cod_subsector,codigo_expediente</GD_RUTA>
+					<GD_USUARIO>app-dgtpsgd</GD_USUARIO>
+					<GD_ATRIBUTO_SERIE>
+						<GD_ATRIBUTO_NOMBRE>codigo_expediente</GD_ATRIBUTO_NOMBRE>
+						<GD_ATRIBUTO_TIPO>java.lang.String</GD_ATRIBUTO_TIPO>
+						<GD_ATRIBUTO_VALOR>EXSTREAM_PRUEBAS</GD_ATRIBUTO_VALOR>
+						<GD_ATRIBUTO_MULTIPLE>NO_MULTIPLE</GD_ATRIBUTO_MULTIPLE>
+					</GD_ATRIBUTO_SERIE>
+					<GD_ATRIBUTO_SERIE>
+						<GD_ATRIBUTO_NOMBRE>cod_macroproceso</GD_ATRIBUTO_NOMBRE>
+						<GD_ATRIBUTO_TIPO>java.lang.String</GD_ATRIBUTO_TIPO>
+						<GD_ATRIBUTO_VALOR>0</GD_ATRIBUTO_VALOR>
+						<GD_ATRIBUTO_MULTIPLE>NO_MULTIPLE</GD_ATRIBUTO_MULTIPLE>
+					</GD_ATRIBUTO_SERIE>
+					<GD_ATRIBUTO_SERIE>
+						<GD_ATRIBUTO_NOMBRE>cod_entidad</GD_ATRIBUTO_NOMBRE>
+						<GD_ATRIBUTO_TIPO>java.lang.String</GD_ATRIBUTO_TIPO>
+						<GD_ATRIBUTO_VALOR>13</GD_ATRIBUTO_VALOR>
+						<GD_ATRIBUTO_MULTIPLE>NO_MULTIPLE</GD_ATRIBUTO_MULTIPLE>
+					</GD_ATRIBUTO_SERIE>
+					<GD_ATRIBUTO_SERIE>
+						<GD_ATRIBUTO_NOMBRE>cod_sector</GD_ATRIBUTO_NOMBRE>
+						<GD_ATRIBUTO_TIPO>java.lang.String</GD_ATRIBUTO_TIPO>
+						<GD_ATRIBUTO_VALOR>0</GD_ATRIBUTO_VALOR>
+						<GD_ATRIBUTO_MULTIPLE>NO_MULTIPLE</GD_ATRIBUTO_MULTIPLE>
+					</GD_ATRIBUTO_SERIE>
+					<GD_ATRIBUTO_SERIE>
+						<GD_ATRIBUTO_NOMBRE>cod_subsector</GD_ATRIBUTO_NOMBRE>
+						<GD_ATRIBUTO_TIPO>java.lang.String</GD_ATRIBUTO_TIPO>
+						<GD_ATRIBUTO_VALOR>0</GD_ATRIBUTO_VALOR>
+						<GD_ATRIBUTO_MULTIPLE>NO_MULTIPLE</GD_ATRIBUTO_MULTIPLE>
+					</GD_ATRIBUTO_SERIE>
+					<GD_ATRIBUTO_SERIE>
+						<GD_ATRIBUTO_NOMBRE>a_category</GD_ATRIBUTO_NOMBRE>
+						<GD_ATRIBUTO_TIPO>java.lang.String</GD_ATRIBUTO_TIPO>
+						<GD_ATRIBUTO_VALOR>S_TEST_0001</GD_ATRIBUTO_VALOR>
+						<GD_ATRIBUTO_MULTIPLE>NO_MULTIPLE</GD_ATRIBUTO_MULTIPLE>
+					</GD_ATRIBUTO_SERIE>
+					<GD_ATRIBUTO_DOC>
+						<GD_ATRIBUTO_NOMBRE>codigo_expediente</GD_ATRIBUTO_NOMBRE>
+						<GD_ATRIBUTO_TIPO>java.lang.String</GD_ATRIBUTO_TIPO>
+						<GD_ATRIBUTO_VALOR>EXSTREAM_PRUEBAS</GD_ATRIBUTO_VALOR>
+						<GD_ATRIBUTO_MULTIPLE>NO_MULTIPLE</GD_ATRIBUTO_MULTIPLE>
+					</GD_ATRIBUTO_DOC>
+					<GD_ATRIBUTO_DOC>
+						<GD_ATRIBUTO_NOMBRE>cod_macroproceso</GD_ATRIBUTO_NOMBRE>
+						<GD_ATRIBUTO_TIPO>java.lang.String</GD_ATRIBUTO_TIPO>
+						<GD_ATRIBUTO_VALOR>0</GD_ATRIBUTO_VALOR>
+						<GD_ATRIBUTO_MULTIPLE>NO_MULTIPLE</GD_ATRIBUTO_MULTIPLE>
+					</GD_ATRIBUTO_DOC>
+					<GD_ATRIBUTO_DOC>
+						<GD_ATRIBUTO_NOMBRE>cod_entidad</GD_ATRIBUTO_NOMBRE>
+						<GD_ATRIBUTO_TIPO>java.lang.String</GD_ATRIBUTO_TIPO>
+						<GD_ATRIBUTO_VALOR>13</GD_ATRIBUTO_VALOR>
+						<GD_ATRIBUTO_MULTIPLE>NO_MULTIPLE</GD_ATRIBUTO_MULTIPLE>
+					</GD_ATRIBUTO_DOC>
+					<GD_ATRIBUTO_DOC>
+						<GD_ATRIBUTO_NOMBRE>cod_sector</GD_ATRIBUTO_NOMBRE>
+						<GD_ATRIBUTO_TIPO>java.lang.String</GD_ATRIBUTO_TIPO>
+						<GD_ATRIBUTO_VALOR>0</GD_ATRIBUTO_VALOR>
+						<GD_ATRIBUTO_MULTIPLE>NO_MULTIPLE</GD_ATRIBUTO_MULTIPLE>
+					</GD_ATRIBUTO_DOC>
+					<GD_ATRIBUTO_DOC>
+						<GD_ATRIBUTO_NOMBRE>cod_subsector</GD_ATRIBUTO_NOMBRE>
+						<GD_ATRIBUTO_TIPO>java.lang.String</GD_ATRIBUTO_TIPO>
+						<GD_ATRIBUTO_VALOR>0</GD_ATRIBUTO_VALOR>
+						<GD_ATRIBUTO_MULTIPLE>NO_MULTIPLE</GD_ATRIBUTO_MULTIPLE>
+					</GD_ATRIBUTO_DOC>
+					<GD_ATRIBUTO_DOC>
+						<GD_ATRIBUTO_NOMBRE>a_category</GD_ATRIBUTO_NOMBRE>
+						<GD_ATRIBUTO_TIPO>java.lang.String</GD_ATRIBUTO_TIPO>
+						<GD_ATRIBUTO_VALOR>D_TEST_0001</GD_ATRIBUTO_VALOR>
+						<GD_ATRIBUTO_MULTIPLE>NO_MULTIPLE</GD_ATRIBUTO_MULTIPLE>
+					</GD_ATRIBUTO_DOC>
+					<GD_ATRIBUTO_DOC>
+						<GD_ATRIBUTO_NOMBRE>fecha_doc</GD_ATRIBUTO_NOMBRE>
+						<GD_ATRIBUTO_TIPO>java.util.Date</GD_ATRIBUTO_TIPO>
+						<GD_ATRIBUTO_VALOR>20/04/2020 16:00:00</GD_ATRIBUTO_VALOR>
+						<GD_ATRIBUTO_MULTIPLE>NO_MULTIPLE</GD_ATRIBUTO_MULTIPLE>
+					</GD_ATRIBUTO_DOC>
+					<GD_ATRIBUTO_DOC>
+						<GD_ATRIBUTO_NOMBRE>nivel_lopd</GD_ATRIBUTO_NOMBRE>
+						<GD_ATRIBUTO_TIPO>java.lang.String</GD_ATRIBUTO_TIPO>
+						<GD_ATRIBUTO_VALOR>1</GD_ATRIBUTO_VALOR>
+						<GD_ATRIBUTO_MULTIPLE>NO_MULTIPLE</GD_ATRIBUTO_MULTIPLE>
+					</GD_ATRIBUTO_DOC>
+					<GD_ATRIBUTO_DOC>
+						<GD_ATRIBUTO_NOMBRE>nivel_acceso</GD_ATRIBUTO_NOMBRE>
+						<GD_ATRIBUTO_TIPO>java.lang.String</GD_ATRIBUTO_TIPO>
+						<GD_ATRIBUTO_VALOR>1</GD_ATRIBUTO_VALOR>
+						<GD_ATRIBUTO_MULTIPLE>NO_MULTIPLE</GD_ATRIBUTO_MULTIPLE>
+					</GD_ATRIBUTO_DOC>
+				</GESTOR_DOCUMENTAL>
+			</DISTRIBUCION>
+
+			<QR>
+				<!-- CODIGO QR STANDARD PARA MAPFRE ESPAÑA -->
+				<VERSION>01</VERSION>
+				<COD_SERIE>S_EMPH_0001</COD_SERIE>
+				<COD_DOCUMENTO>D_POCP_0001</COD_DOCUMENTO>
+				<TIPO_INFO>01#1234567890#1234567890#1234567890</TIPO_INFO>
+				<ENTIDAD>0003</ENTIDAD>
+				<SUBCENTRAL>12</SUBCENTRAL>
+				<CECO>1234</CECO> 
+			</QR>
+
+			<BLOQUES>
+
+				<EM020>
+					<!-- Cabecera. EN TODAS LAS PAGINAS-->
+					<E20-C2>SOLICITUD SEGURO DE ASISTENCIA SANITARIA</E20-C2>
+					<!-- NOMBRE DEL RAMO -->
+					<E20-C4>CONDICIONES PARTICULARES </E20-C4>
+					<!-- NOMBRE DEL DOCUMENTO. PUEDE SER "CONDICIONES PARTICULARES" "CERTIFICADO DE SEGURO DE GRUPO" "CERTIFICADO DE SEGURO INDIVIDUAL" -->
+					<E20-C5>DUPLICADO</E20-C5>
+					<!-- TIPO DE OPERACION -->
+					<E20-C6>1234567891234</E20-C6>
+					<!-- NUMERO DE POLIZA -->
+					<E20-C7>24/09/2018</E20-C7>
+					<!-- FECHA IMPRESION -->
+					<E20-C8>LOGO DE LA ENTIDAD</E20-C8>
+					<!-- LOGO DE LA ENTIDAD -->
+					<E20-C9>333666999</E20-C9>
+					<!-- NUMERO DE POLIZA FAMILIA -->
+				</EM020>
+				<EM025>
+					<!-- Datos generales MAPFRE. EN TODAS LAS PAGINAS-->
+				<EM025C1>REGISTRO MERCANTIL</EM025C1>
+					<!-- REGISTRO MERCANTIL -->
+				<EM025C2>DOMICILIO SOCIAL</EM025C2>
+					<!-- DOMICILIO FISCAL -->
+				</EM025>
+				<EM030>
+					<!-- Informacion Comercial y se formara como se esta formando actualmente en las CCPP -->
+					<E30-C1>MEDIADOR</E30-C1>
+					<!-- MEDIADOR -->
+					<E30-C2>TIPO MEDIACION</E30-C2>
+					<!-- TIPO MEDIACION -->
+					<E30-C3>OFICINA</E30-C3>
+					<!-- OFICINA -->
+					<E30-C4>AGENTE</E30-C4>
+					<!-- AGENTE -->
+					<E30-C5>Las Guardas, 24 Bajo</E30-C5>
+					<!-- DIRECCION -->
+					<E30-C6>28080</E30-C6>
+					<!-- CODIGO POSTAL OFICINA -->
+					<E30-C7>LEGANES</E30-C7>
+					<!-- LOCALIDAD -->
+					<E30-C8>MADRID</E30-C8>
+					<!-- PROVINCIA -->
+					<E30-C9>prueba@hotmail.com</E30-C9>
+					<!-- EMAIL -->
+					<E30-C10>901 123 123</E30-C10> 
+					<!-- EMAIL -->
+				</EM030>
+				<!--
+				  DATOS GENERALES EM035 - Solicitud de cambio: V3.0 - Evolutivo del documento Solicitud Tomador 
+				  Regla asociada: Se muestra si <CODIGOPRODUCTO> es igual a SOLICITUD_TOMADOR.
+				-->
+				<EM035> <!-- DATOS GENERALES -->
+						<!-- SOLICITANTE -->
+						<E35-C1>XXXXXXXXXXXX</E35-C1>
+						<!-- CNAE -->
+						<E35-C2>XXXXXXXXXXXX</E35-C2>
+						<!-- DURACION -->
+						<E35-C3>XXXXXXXXXXXX</E35-C3>
+						<!-- FECHA DE EFECTO -->
+						<E35-C4>XXXXXXXXXXXX</E35-C4>
+						<!-- FECHA DE VENCIMIENTO -->
+						<E35-C5>XXXXXXXXXXXX</E35-C5>
+					</EM035>
+				<EM046>
+				<!-- 
+					Datos del Tomador - - Solicitud de cambio: V3.0 - Evolutivo del documento Solicitud Tomador  
+					Regla asociada: Se muestra si <CODIGOPRODUCTO> es igual a SOLICITUD_TOMADOR
+				-->
+					<E46-C1>Felipe Gomez</E46-C1>
+					<!-- Nombre Tomador -->
+					<E46-C2>55.665.333</E46-C2>
+					<!-- Docuemento ID  Tomador -->
+					<E46-C3>Calle de la Avellana 18</E46-C3>
+					<!-- Direccion  Tomador -->
+					<E46-C4>28030</E46-C4>
+					<!-- CP  Tomador -->
+					<E46-C5>Palencia</E46-C5>
+					<!-- Localidad  Tomador -->
+					<E46-C6>912222222</E46-C6>
+					<!-- Telefono fijo  Tomador -->
+					<E46-C7>Caceres</E46-C7>
+					<!-- Provincia  Tomador -->
+					<E46-C8>667555555</E46-C8>
+					<!-- Telefono movil  Tomador -->
+					<E46-C9>felipegomez@email.com</E46-C9>
+					<!-- Email  Tomador -->
+					<E46-C10>28/05/1973</E46-C10>
+					<!-- Fecha Nacimiento  Tomador -->
+					<E46-C11>CIF</E46-C11>
+					<!-- RAZON SOCIAL -->
+				</EM046>
+				<EM048> 
+				<!-- 
+					DATOS DE APODERADO - - Solicitud de cambio: V3.0 - Evolutivo del documento Solicitud Tomador  
+					Regla asociada: Se muestra si <CODIGOPRODUCTO> es igual a SOLICITUD_TOMADOR
+				-->
+						<!-- NOMBRE -->
+						<E48-C1>XXXXXXXXXXXX</E48-C1>
+						<!-- DOCUMENTO ID -->
+						<E48-C2>XXXXXXXXXXXX</E48-C2>
+						<!-- TELEFONO -->
+						<E48-C3>XXXXXXXXXXXX</E48-C3>
+						<!-- EAIL -->
+						<E48-C4>XXXXXXXXXXXX</E48-C4>
+					</EM048>
+				<EM050>
+					<!-- Datos del Solicitante. Se comporta de la misma manera que CCPP -->
+					<E50-C1>Arturo</E50-C1>
+					<!-- NOMBRE -->
+					<E50-C2>123456789M</E50-C2>
+					<!-- DOCUMENTO ID -->
+					<E50-C3>Las Guardas, 24 Bajo</E50-C3>
+					<!-- DIRECCION -->
+					<E50-C4>15155</E50-C4>
+					<!-- CODIGO POSTAL -->
+					<E50-C5>LEGANES</E50-C5>
+					<!-- LOCALIDAD -->
+					<E50-C6>928 123 123</E50-C6>
+					<!-- TELEFONO FIJO -->
+					<E50-C7>MADRID</E50-C7>
+					<!-- ESTADO/PROVINCIA/REGION -->
+					<E50-C8>123 456 789</E50-C8>
+					<!-- TELEFONO MOVIL -->
+					<E50-C9>prueba@hotmail.com</E50-C9>
+					<!-- EMAIL -->
+					<E50-C10>01/01/1919</E50-C10>
+					<!-- FECHA NACIMIENTO -->
+					<E50-C11>Masculino</E50-C11>
+					<!-- SEXO -->
+					<E50-C12>SOLTERO</E50-C12>
+					<!-- ESTADO CIVIL -->
+					<E50-C13>CIF</E50-C13>
+					<!-- RAZON SOCIAL -->
+				</EM050>
+				<EM055>
+					<!-- Domicilio de asistencia -->
+					<TIPO_DOMICILIO>DOMICILIO DE ASISTENCIA</TIPO_DOMICILIO>
+					<!-- TITULO DEL BLOQUE. PUEDE SER "DOMICILIO DE ASISTENCIA" O "DOMICILIO PARTICULAR DEL FILA TITULAR" -->
+					<E55-C1>SALAMANCA, 14 3B</E55-C1>
+					<!-- DIRECCION -->
+					<E55-C2>15155</E55-C2>
+					<!-- CODIGO POSTAL -->
+					<E55-C3>LAS PALMAS</E55-C3>
+					<!-- LOCALIDAD -->
+					<E55-C4>928 222 222</E55-C4>
+					<!-- TELEFONO -->
+					<E55-C5>LAS PALMAS GC</E55-C5>
+					<!-- ESTADO/PROVINCIA/REGION -->
+					<E55-C6>666 666 666</E55-C6>
+					<!-- TELEFONO MOVIL -->
+				</EM055>
+				<EM060>
+					<!-- Datos Asegurados -->
+					<E60-C2>Federico García Lorca</E60-C2>
+					<!-- NOMBRE Y APELLIDOS -->			
+					<E60-C3>12345678T</E60-C3>
+					<!-- DOCUMENTO ID -->
+					<E60-C4>1</E60-C4>
+					<!-- Nº CERTIFICADO -->
+					<E60-C6>01/01/2018</E60-C6>
+					<!-- FECHA EFECTO -->
+					<E60-C9>09/09/1999</E60-C9>
+					<!-- FECHA NACIMIENTO -->
+					<E60-C10>Masculino</E60-C10>
+					<!-- SEXO -->
+					<E60-C11>soltero</E60-C11>
+					<!-- ESTADO CIVIL -->
+					<E60-C12>Titular</E60-C12>
+					<!-- PARENTESCO -->
+					<E60-C13>OBRERO</E60-C13>
+					<!-- PROFESION -->
+				</EM060>
+				<EM061>
+					<E61-C1>043414309</E61-C1>
+					<E61-C2>DANIJEL MURANI MURANI</E61-C2>
+					<E61-C3>85556794Z</E61-C3>
+					<E61-C5>20/08/2019</E61-C5>
+					<E61-C8>29/09/1979</E61-C8>
+					<E61-C10>M</E61-C10>
+					<E61-C11>CASADO</E61-C11>
+					<E61-C12>TITULAR</E61-C12>
+					<E61-C13>ADMINISTRATIVOS</E61-C13>
+					<E61-C1>043414317</E61-C1>
+					<E61-C2>ASD ASD ASD</E61-C2>
+					<E61-C5>20/08/2019</E61-C5>
+					<E61-C8>10/08/2011</E61-C8>
+					<E61-C10>M</E61-C10>
+					<E61-C11>DESCONOCID</E61-C11>
+					<E61-C12>HIJO</E61-C12>
+					<E61-C13>ESTUDIANTE</E61-C13>
+					<E61-C1>043414325</E61-C1>
+					<E61-C2>XCV XCV XCV</E61-C2>
+					<E61-C5>20/08/2019</E61-C5>
+					<E61-C8>17/08/2012</E61-C8>
+					<E61-C10>M</E61-C10>
+					<E61-C11>DESCONOCID</E61-C11>
+					<E61-C12>HIJO</E61-C12>
+					<E61-C13>ESTUDIANTE</E61-C13>
+					<E61-C1>043414333</E61-C1>
+					<E61-C2>XCV XCV XCV</E61-C2>
+					<E61-C5>20/08/2019</E61-C5>
+					<E61-C8>01/08/2007</E61-C8>
+					<E61-C10>M</E61-C10>
+					<E61-C11>DESCONOCID</E61-C11>
+					<E61-C12>CONYUGE</E61-C12>
+					<E61-C13>ESTUDIANTE</E61-C13>
+					<E61-C1>043414341</E61-C1>
+					<E61-C2>DFGDF DFG DFG</E61-C2>
+					<E61-C5>20/08/2019</E61-C5>
+					<E61-C8>14/06/2019</E61-C8>
+					<E61-C10>M</E61-C10>
+					<E61-C11>DESCONOCID</E61-C11>
+					<E61-C12>HIJO</E61-C12>
+					<E61-C13>ESTUDIANTE</E61-C13>
+					<E61-C1>043414358</E61-C1>
+					<E61-C2>SDF SDF SDF</E61-C2>
+					<E61-C5>20/08/2019</E61-C5>
+					<E61-C8>24/08/2012</E61-C8>
+					<E61-C10>M</E61-C10>
+					<E61-C11>DESCONOCID</E61-C11>
+					<E61-C12>HIJO</E61-C12>
+					<E61-C13>ESTUDIANTE</E61-C13>
+					<E61-C1>043414366</E61-C1>
+					<E61-C2>SDF SDF SDF</E61-C2>
+					<E61-C3>62512114T</E61-C3>
+					<E61-C5>20/08/2019</E61-C5>
+					<E61-C8>12/08/2005</E61-C8>
+					<E61-C10>M</E61-C10>
+					<E61-C11>DESCONOCID</E61-C11>
+					<E61-C12>HIJO</E61-C12>
+					<E61-C13>ESTUDIANTE</E61-C13>
+					<E61-C1>043414374</E61-C1>
+					<E61-C2>ASD ASD ASD</E61-C2>
+					<E61-C3>64683580J</E61-C3>
+					<E61-C5>20/08/2019</E61-C5>
+					<E61-C8>19/08/2004</E61-C8>
+					<E61-C10>F</E61-C10>
+					<E61-C11>DIVORCIADO</E61-C11>
+					<E61-C12>HIJO</E61-C12>
+					<E61-C13>ESTUDIANTE</E61-C13>
+					<E61-C1>043414382</E61-C1>
+					<E61-C2>ASD ASD ASD</E61-C2>
+					<E61-C3>57913853Z</E61-C3>
+					<E61-C5>20/08/2019</E61-C5>
+					<E61-C8>05/08/1992</E61-C8>
+					<E61-C10>M</E61-C10>
+					<E61-C11>DESCONOCID</E61-C11>
+					<E61-C12>HIJO</E61-C12>
+					<E61-C13>ESTUDIANTE</E61-C13>
+				</EM061>
+				<EM100>
+
+					<!-- Coberturas y Garantias -->
+
+					<TABLA-1>
+						<E100-C1>Coberturas y garantías de los certificados:</E100-C1>
+						<E100-C2>01.881991</E100-C2>
+						<E100-C3>GARANTIAS EXTRAHOSPITALARIAS</E100-C3>
+						<E100-C3>GARANTIAS HOSPITALARIAS</E100-C3>
+						<E100-C3>GARANTIA BUCODENTAL</E100-C3>
+						<E100-C3>SEGUNDO DIAGNOSTICO</E100-C3>
+						<E100-C3>ACCESO A RED HOSPITALARIA DE EEUU</E100-C3>
+						<E100-C3>ASIST.URGENTE EN EXTRANJERO Y TRASLADO EN ESPAñA</E100-C3>
+						<E100-C3>SEGURO DE FALLECIMIENTO POR ACCIDENTE</E100-C3>
+						<E100-C3>SEGURO DE PROTECCION DE PAGOS</E100-C3>
+					</TABLA-1>
+					<TABLA-2>
+						<E100-C1>Coberturas y garantías de los certificados:</E100-C1>
+						<E100-C2>02.882007</E100-C2>
+						<E100-C2>02.111111</E100-C2>
+						<E100-C3>GARANTIAS EXTRAHOSPITALARIAS</E100-C3>
+						<E100-C3>GARANTIAS HOSPITALARIAS</E100-C3>
+						<E100-C3>GARANTIA BUCODENTAL</E100-C3>
+						<E100-C3>SEGUNDO DIAGNOSTICO</E100-C3>
+						<E100-C3>ACCESO A RED HOSPITALARIA DE EEUU</E100-C3>
+						<E100-C3>ASIST.URGENTE EN EXTRANJERO Y TRASLADO EN ESPAñA</E100-C3>
+						<E100-C3>SEGURO DE FALLECIMIENTO POR ACCIDENTE</E100-C3>
+					</TABLA-2>
+					<TABLA-3>
+						<E100-C1>Coberturas y garantías de los certificados:</E100-C1>
+						<E100-C2>0.3881991</E100-C2>
+						<E100-C3>GARANTIAS EXTRAHOSPITALARIAS</E100-C3>
+						<E100-C3>GARANTIAS HOSPITALARIAS</E100-C3>
+						<E100-C3>GARANTIA BUCODENTAL</E100-C3>
+						<E100-C3>SEGUNDO DIAGNOSTICO</E100-C3>
+						<E100-C3>ACCESO A RED HOSPITALARIA DE EEUU</E100-C3>
+						<E100-C3>ASIST.URGENTE EN EXTRANJERO Y TRASLADO EN ESPAñA</E100-C3>
+						<E100-C3>SEGURO DE FALLECIMIENTO POR ACCIDENTE</E100-C3>
+						<E100-C3>SEGURO DE PROTECCION DE PAGOS</E100-C3>
+					</TABLA-3>
+					<TABLA-4>
+						<E100-C1>Coberturas y garantías de los certificados:</E100-C1>
+						<E100-C2>04.882007</E100-C2>
+						<E100-C2>04.882006</E100-C2>
+						<E100-C2>04.882005</E100-C2>
+						<E100-C3>GARANTIAS EXTRAHOSPITALARIAS</E100-C3>
+						<E100-C3>GARANTIAS HOSPITALARIAS</E100-C3>
+						<E100-C3>GARANTIA BUCODENTAL</E100-C3>
+						<E100-C3>SEGUNDO DIAGNOSTICO</E100-C3>
+						<E100-C3>ACCESO A RED HOSPITALARIA DE EEUU</E100-C3>
+						<E100-C3>ASIST.URGENTE EN EXTRANJERO Y TRASLADO EN ESPAñA</E100-C3>
+						<E100-C3>SEGURO DE FALLECIMIENTO POR ACCIDENTE</E100-C3>
+					</TABLA-4>
+					<TABLA-5>
+						<E100-C1>Coberturas y garantías de los certificados:</E100-C1>
+						<E100-C2>05.881991</E100-C2>
+						<E100-C3>GARANTIAS EXTRAHOSPITALARIAS</E100-C3>
+						<E100-C3>GARANTIAS HOSPITALARIAS</E100-C3>
+						<E100-C3>GARANTIA BUCODENTAL</E100-C3>
+						<E100-C3>SEGUNDO DIAGNOSTICO</E100-C3>
+						<E100-C3>ACCESO A RED HOSPITALARIA DE EEUU</E100-C3>
+						<E100-C3>ASIST.URGENTE EN EXTRANJERO Y TRASLADO EN ESPAñA</E100-C3>
+						<E100-C3>SEGURO DE FALLECIMIENTO POR ACCIDENTE</E100-C3>
+						<E100-C3>SEGURO DE PROTECCION DE PAGOS</E100-C3>
+					</TABLA-5>
+					<TABLA-6>
+						<E100-C1>Coberturas y garantías de los certificados:</E100-C1>
+						<E100-C2>06.882007</E100-C2>
+						<E100-C3>GARANTIAS EXTRAHOSPITALARIAS</E100-C3>
+						<E100-C3>GARANTIAS HOSPITALARIAS</E100-C3>
+						<E100-C3>GARANTIA BUCODENTAL</E100-C3>
+						<E100-C3>SEGUNDO DIAGNOSTICO</E100-C3>
+						<E100-C3>ACCESO A RED HOSPITALARIA DE EEUU</E100-C3>
+						<E100-C3>ASIST.URGENTE EN EXTRANJERO Y TRASLADO EN ESPAñA</E100-C3>
+						<E100-C3>SEGURO DE FALLECIMIENTO POR ACCIDENTE</E100-C3>
+					</TABLA-6>
+					<TABLA-7>
+						<E100-C1>Coberturas y garantías de los certificados:</E100-C1>
+						<E100-C2>07.881991</E100-C2>
+						<E100-C3>GARANTIAS EXTRAHOSPITALARIAS</E100-C3>
+						<E100-C3>GARANTIAS HOSPITALARIAS</E100-C3>
+						<E100-C3>GARANTIA BUCODENTAL</E100-C3>
+						<E100-C3>SEGUNDO DIAGNOSTICO</E100-C3>
+						<E100-C3>ACCESO A RED HOSPITALARIA DE EEUU</E100-C3>
+						<E100-C3>ASIST.URGENTE EN EXTRANJERO Y TRASLADO EN ESPAñA</E100-C3>
+						<E100-C3>SEGURO DE FALLECIMIENTO POR ACCIDENTE</E100-C3>
+						<E100-C3>SEGURO DE PROTECCION DE PAGOS</E100-C3>
+					</TABLA-7>
+					<TABLA-8>
+						<E100-C1>Coberturas y garantías de los certificados:</E100-C1>
+						<E100-C2>08.882007</E100-C2>
+						<E100-C3>GARANTIAS EXTRAHOSPITALARIAS</E100-C3>
+						<E100-C3>GARANTIAS HOSPITALARIAS</E100-C3>
+						<E100-C3>GARANTIA BUCODENTAL</E100-C3>
+						<E100-C3>SEGUNDO DIAGNOSTICO</E100-C3>
+						<E100-C3>ACCESO A RED HOSPITALARIA DE EEUU</E100-C3>
+						<E100-C3>ASIST.URGENTE EN EXTRANJERO Y TRASLADO EN ESPAñA</E100-C3>
+						<E100-C3>SEGURO DE FALLECIMIENTO POR ACCIDENTE</E100-C3>
+					</TABLA-8>
+					<TABLA-9>
+						<E100-C1>Coberturas y garantías de los certificados:</E100-C1>
+						<E100-C2>09.881991</E100-C2>
+						<E100-C3>GARANTIAS EXTRAHOSPITALARIAS</E100-C3>
+						<E100-C3>GARANTIAS HOSPITALARIAS</E100-C3>
+						<E100-C3>GARANTIA BUCODENTAL</E100-C3>
+						<E100-C3>SEGUNDO DIAGNOSTICO</E100-C3>
+						<E100-C3>ACCESO A RED HOSPITALARIA DE EEUU</E100-C3>
+						<E100-C3>ASIST.URGENTE EN EXTRANJERO Y TRASLADO EN ESPAñA</E100-C3>
+						<E100-C3>SEGURO DE FALLECIMIENTO POR ACCIDENTE</E100-C3>
+						<E100-C3>SEGURO DE PROTECCION DE PAGOS</E100-C3>
+					</TABLA-9>
+					<TABLA-10>
+						<E100-C1>Coberturas y garantías de los certificados:</E100-C1>
+						<E100-C2>10.882007</E100-C2>
+						<E100-C3>GARANTIAS EXTRAHOSPITALARIAS</E100-C3>
+						<E100-C3>GARANTIAS HOSPITALARIAS</E100-C3>
+						<E100-C3>GARANTIA BUCODENTAL</E100-C3>
+						<E100-C3>SEGUNDO DIAGNOSTICO</E100-C3>
+						<E100-C3>ACCESO A RED HOSPITALARIA DE EEUU</E100-C3>
+						<E100-C3>ASIST.URGENTE EN EXTRANJERO Y TRASLADO EN ESPAñA</E100-C3>
+						<E100-C3>SEGURO DE FALLECIMIENTO POR ACCIDENTE</E100-C3>
+					</TABLA-10>
+					<TABLA-11>
+						<E100-C1>Coberturas y garantías de los certificados:</E100-C1>
+						<E100-C2>11.881991</E100-C2>
+						<E100-C3>GARANTIAS EXTRAHOSPITALARIAS</E100-C3>
+						<E100-C3>GARANTIAS HOSPITALARIAS</E100-C3>
+						<E100-C3>GARANTIA BUCODENTAL</E100-C3>
+						<E100-C3>SEGUNDO DIAGNOSTICO</E100-C3>
+						<E100-C3>ACCESO A RED HOSPITALARIA DE EEUU</E100-C3>
+						<E100-C3>ASIST.URGENTE EN EXTRANJERO Y TRASLADO EN ESPAñA</E100-C3>
+						<E100-C3>SEGURO DE FALLECIMIENTO POR ACCIDENTE</E100-C3>
+						<E100-C3>SEGURO DE PROTECCION DE PAGOS</E100-C3>
+					</TABLA-11>
+					<TABLA-12>
+						<E100-C1>Coberturas y garantías de los certificados:</E100-C1>
+						<E100-C2>12.882007</E100-C2>
+						<E100-C3>GARANTIAS EXTRAHOSPITALARIAS</E100-C3>
+						<E100-C3>GARANTIAS HOSPITALARIAS</E100-C3>
+						<E100-C3>GARANTIA BUCODENTAL</E100-C3>
+						<E100-C3>SEGUNDO DIAGNOSTICO</E100-C3>
+						<E100-C3>ACCESO A RED HOSPITALARIA DE EEUU</E100-C3>
+						<E100-C3>ASIST.URGENTE EN EXTRANJERO Y TRASLADO EN ESPAñA</E100-C3>
+						<E100-C3>SEGURO DE FALLECIMIENTO POR ACCIDENTE</E100-C3>
+					</TABLA-12>
+					<TABLA-13>
+						<E100-C1>Coberturas y garantías de los certificados:</E100-C1>
+						<E100-C2>13.881991</E100-C2>
+						<E100-C3>GARANTIAS EXTRAHOSPITALARIAS</E100-C3>
+						<E100-C3>GARANTIAS HOSPITALARIAS</E100-C3>
+						<E100-C3>GARANTIA BUCODENTAL</E100-C3>
+						<E100-C3>SEGUNDO DIAGNOSTICO</E100-C3>
+						<E100-C3>ACCESO A RED HOSPITALARIA DE EEUU</E100-C3>
+						<E100-C3>ASIST.URGENTE EN EXTRANJERO Y TRASLADO EN ESPAñA</E100-C3>
+						<E100-C3>SEGURO DE FALLECIMIENTO POR ACCIDENTE</E100-C3>
+						<E100-C3>SEGURO DE PROTECCION DE PAGOS</E100-C3>
+					</TABLA-13>
+					<TABLA-14>
+						<E100-C1>Coberturas y garantías de los certificados:</E100-C1>
+						<E100-C2>14.882007</E100-C2>
+						<E100-C3>GARANTIAS EXTRAHOSPITALARIAS</E100-C3>
+						<E100-C3>GARANTIAS HOSPITALARIAS</E100-C3>
+						<E100-C3>GARANTIA BUCODENTAL</E100-C3>
+						<E100-C3>SEGUNDO DIAGNOSTICO</E100-C3>
+						<E100-C3>ACCESO A RED HOSPITALARIA DE EEUU</E100-C3>
+						<E100-C3>ASIST.URGENTE EN EXTRANJERO Y TRASLADO EN ESPAñA</E100-C3>
+						<E100-C3>SEGURO DE FALLECIMIENTO POR ACCIDENTE</E100-C3>
+					</TABLA-14>
+					<TABLA-15>
+						<E100-C1>Coberturas y garantías de los certificados:</E100-C1>
+						<E100-C2>15.882007</E100-C2>
+						<E100-C3>GARANTIAS EXTRAHOSPITALARIAS</E100-C3>
+						<E100-C3>GARANTIAS HOSPITALARIAS</E100-C3>
+						<E100-C3>GARANTIA BUCODENTAL</E100-C3>
+						<E100-C3>SEGUNDO DIAGNOSTICO</E100-C3>
+						<E100-C3>ACCESO A RED HOSPITALARIA DE EEUU</E100-C3>
+						<E100-C3>ASIST.URGENTE EN EXTRANJERO Y TRASLADO EN ESPAñA</E100-C3>
+						<E100-C3>SEGURO DE FALLECIMIENTO POR ACCIDENTE</E100-C3>
+					</TABLA-15>
+
+				</EM100>
+				<EM110>
+
+					<E110-TABLA>
+						<E110-C1>1Nº Certificado Individual</E110-C1>
+						<E110-C2>0001</E110-C2>
+						<E110-C3>0002</E110-C3>
+						<E110-C4>0003</E110-C4>
+						<E110-C5>0004</E110-C5>
+						<E110-C6>0005</E110-C6>
+
+						<E110-C1>Ind. Diaria por Incapacidad Temporal Total</E110-C1>
+						<E110-C2>Incluido</E110-C2>
+						<E110-C3>----</E110-C3>
+						<E110-C4>Incluido</E110-C4>
+						<E110-C5>----</E110-C5>
+						<E110-C6>----</E110-C6>
+
+						<E110-C1>Suma Asegurada (euros/día)</E110-C1>
+						<E110-C2>6,01</E110-C2>
+						<E110-C3>6,01</E110-C3>
+						<E110-C4>----</E110-C4>
+						<E110-C5>6,01</E110-C5>
+						<E110-C6>6,01</E110-C6>
+
+						<E110-C1>Franquicia (día)</E110-C1>
+						<E110-C2>7</E110-C2>
+						<E110-C3>----</E110-C3>
+						<E110-C4>7</E110-C4>
+						<E110-C5>7</E110-C5>
+						<E110-C6>----</E110-C6>
+
+						<E110-C1>Periodo Indemnizable (día)</E110-C1>
+						<E110-C2>365</E110-C2>
+						<E110-C3>365</E110-C3>
+						<E110-C4>365</E110-C4>
+						<E110-C5>365</E110-C5>
+						<E110-C6>365</E110-C6>
+
+						<E110-C1>Ind. Diaria por Hospitaliz. Por C. Causa</E110-C1>
+						<E110-C2>Incluido</E110-C2>
+						<E110-C3>Incluido</E110-C3>
+						<E110-C4>Incluido</E110-C4>
+						<E110-C5>Incluido</E110-C5>
+						<E110-C6>Incluido</E110-C6>
+
+					</E110-TABLA>
+					<E110-TABLA2>
+						<E110-C1>Nº Certificado Individual</E110-C1>
+						<E110-C2>0006</E110-C2>
+						<E110-C3>0007</E110-C3>
+						<E110-C4>0008</E110-C4>
+						<E110-C5>0009</E110-C5>
+						<E110-C6>0010</E110-C6>
+
+						<E110-C1>Ind. Diaria por Incapacidad Temporal Total</E110-C1>
+						<E110-C2>Incluido</E110-C2>
+						<E110-C3>----</E110-C3>
+						<E110-C4>Incluido</E110-C4>
+						<E110-C5>----</E110-C5>
+						<E110-C6>----</E110-C6>
+
+						<E110-C1>Suma Asegurada (euros/día)</E110-C1>
+						<E110-C2>26,01</E110-C2>
+						<E110-C3>26,01</E110-C3>
+						<E110-C4>----</E110-C4>
+						<E110-C5>26,01</E110-C5>
+						<E110-C6>26,01</E110-C6>
+
+						<E110-C1>Franquicia (día)</E110-C1>
+						<E110-C2>27</E110-C2>
+						<E110-C3>----</E110-C3>
+						<E110-C4>27</E110-C4>
+						<E110-C5>27</E110-C5>
+						<E110-C6>----</E110-C6>
+
+						<E110-C1>Periodo Indemnizable (día)</E110-C1>
+						<E110-C2>2365</E110-C2>
+						<E110-C3>2365</E110-C3>
+						<E110-C4>2365</E110-C4>
+						<E110-C5>2365</E110-C5>
+						<E110-C6>2365</E110-C6>
+
+						<E110-C1>Ind. Diaria por Hospitaliz. Por C. Causa</E110-C1>
+						<E110-C2>2Incluido</E110-C2>
+						<E110-C3>2Incluido</E110-C3>
+						<E110-C4>2Incluido</E110-C4>
+						<E110-C5>2Incluido</E110-C5>
+						<E110-C6>2Incluido</E110-C6>
+
+					</E110-TABLA2>
+					<E110-TABLA3>
+						<E110-C1>Nº Certificado Individual</E110-C1>
+						<E110-C2>0011</E110-C2>
+						<E110-C3>0012</E110-C3>
+						<E110-C4>0013</E110-C4>
+						<E110-C5>0014</E110-C5>
+						<E110-C6>0015</E110-C6>
+
+						<E110-C1>Ind. Diaria por Incapacidad Temporal Total</E110-C1>
+						<E110-C2>Incluido</E110-C2>
+						<E110-C3>----</E110-C3>
+						<E110-C4>Incluido</E110-C4>
+						<E110-C5>----</E110-C5>
+						<E110-C6>----</E110-C6>
+
+						<E110-C1>Suma Asegurada (euros/día)</E110-C1>
+						<E110-C2>26,01</E110-C2>
+						<E110-C3>26,01</E110-C3>
+						<E110-C4>----</E110-C4>
+						<E110-C5>26,01</E110-C5>
+						<E110-C6>26,01</E110-C6>
+
+						<E110-C1>Franquicia (día)</E110-C1>
+						<E110-C2>27</E110-C2>
+						<E110-C3>----</E110-C3>
+						<E110-C4>27</E110-C4>
+						<E110-C5>27</E110-C5>
+						<E110-C6>----</E110-C6>
+
+						<E110-C1>Periodo Indemnizable (día)</E110-C1>
+						<E110-C2>365</E110-C2>
+						<E110-C3>365</E110-C3>
+						<E110-C4>365</E110-C4>
+						<E110-C5>365</E110-C5>
+						<E110-C6>365</E110-C6>
+
+						<E110-C1>Ind. Diaria por Hospitaliz. Por C. Causa</E110-C1>
+						<E110-C2>Incluido</E110-C2>
+						<E110-C3>Incluido</E110-C3>
+						<E110-C4>Incluido</E110-C4>
+						<E110-C5>Incluido</E110-C5>
+						<E110-C6>Incluido</E110-C6>
+					</E110-TABLA3>
+					<E110-TABLA4>
+						<E110-C1>Nº Certificado Individual</E110-C1>
+						<E110-C2>0016</E110-C2>
+						<E110-C3>0017</E110-C3>
+						<E110-C4>0018</E110-C4>
+						<E110-C5>0019</E110-C5>
+						<E110-C6>0020</E110-C6>
+
+						<E110-C1>Ind. Diaria por Incapacidad Temporal Total</E110-C1>
+						<E110-C2>Incluido</E110-C2>
+						<E110-C3>----</E110-C3>
+						<E110-C4>Incluido</E110-C4>
+						<E110-C5>----</E110-C5>
+						<E110-C6>----</E110-C6>
+
+						<E110-C1>Suma Asegurada (euros/día)</E110-C1>
+						<E110-C2>26,01</E110-C2>
+						<E110-C3>26,01</E110-C3>
+						<E110-C4>----</E110-C4>
+						<E110-C5>26,01</E110-C5>
+						<E110-C6>26,01</E110-C6>
+
+						<E110-C1>Franquicia (día)</E110-C1>
+						<E110-C2>27</E110-C2>
+						<E110-C3>----</E110-C3>
+						<E110-C4>27</E110-C4>
+						<E110-C5>27</E110-C5>
+						<E110-C6>----</E110-C6>
+
+						<E110-C1>Periodo Indemnizable (día)</E110-C1>
+						<E110-C2>365</E110-C2>
+						<E110-C3>365</E110-C3>
+						<E110-C4>365</E110-C4>
+						<E110-C5>365</E110-C5>
+						<E110-C6>365</E110-C6>
+
+						<E110-C1>Ind. Diaria por Hospitaliz. Por C. Causa</E110-C1>
+						<E110-C2>Incluido</E110-C2>
+						<E110-C3>Incluido</E110-C3>
+						<E110-C4>Incluido</E110-C4>
+						<E110-C5>Incluido</E110-C5>
+						<E110-C6>Incluido</E110-C6>
+					</E110-TABLA4>
+					<E110-TABLA5>
+						<E110-C1>Nº Certificado Individual</E110-C1>
+						<E110-C2>0021</E110-C2>
+						<E110-C3>0022</E110-C3>
+						<E110-C4>0023</E110-C4>
+						<E110-C5>0024</E110-C5>
+						<E110-C6>0025</E110-C6>
+
+						<E110-C1>Ind. Diaria por Incapacidad Temporal Total</E110-C1>
+						<E110-C2>Incluido</E110-C2>
+						<E110-C3>----</E110-C3>
+						<E110-C4>Incluido</E110-C4>
+						<E110-C5>----</E110-C5>
+						<E110-C6>----</E110-C6>
+
+						<E110-C1>Suma Asegurada (euros/día)</E110-C1>
+						<E110-C2>26,01</E110-C2>
+						<E110-C3>26,01</E110-C3>
+						<E110-C4>----</E110-C4>
+						<E110-C5>26,01</E110-C5>
+						<E110-C6>26,01</E110-C6>
+
+						<E110-C1>Franquicia (día)</E110-C1>
+						<E110-C2>27</E110-C2>
+						<E110-C3>----</E110-C3>
+						<E110-C4>27</E110-C4>
+						<E110-C5>27</E110-C5>
+						<E110-C6>----</E110-C6>
+
+						<E110-C1>Periodo Indemnizable (día)</E110-C1>
+						<E110-C2>365</E110-C2>
+						<E110-C3>365</E110-C3>
+						<E110-C4>365</E110-C4>
+						<E110-C5>365</E110-C5>
+						<E110-C6>365</E110-C6>
+
+						<E110-C1>Ind. Diaria por Hospitaliz. Por C. Causa</E110-C1>
+						<E110-C2>Incluido</E110-C2>
+						<E110-C3>Incluido</E110-C3>
+						<E110-C4>Incluido</E110-C4>
+						<E110-C5>Incluido</E110-C5>
+						<E110-C6>Incluido</E110-C6>
+					</E110-TABLA5>
+					<E110-TABLA6>
+						<E110-C1>Nº Certificado Individual</E110-C1>
+						<E110-C2>0026</E110-C2>
+						<E110-C3>0027</E110-C3>
+						<E110-C4>0028</E110-C4>
+						<E110-C5>0029</E110-C5>
+						<E110-C6>0030</E110-C6>
+
+						<E110-C1>Ind. Diaria por Incapacidad Temporal Total</E110-C1>
+						<E110-C2>Incluido</E110-C2>
+						<E110-C3>----</E110-C3>
+						<E110-C4>Incluido</E110-C4>
+						<E110-C5>----</E110-C5>
+						<E110-C6>----</E110-C6>
+
+						<E110-C1>Suma Asegurada (euros/día)</E110-C1>
+						<E110-C2>6,01</E110-C2>
+						<E110-C3>6,01</E110-C3>
+						<E110-C4>----</E110-C4>
+						<E110-C5>6,01</E110-C5>
+						<E110-C6>6,01</E110-C6>
+
+						<E110-C1>Franquicia (día)</E110-C1>
+						<E110-C2>27</E110-C2>
+						<E110-C3>----</E110-C3>
+						<EM110C47/>
+						<E110-C5>7</E110-C5>
+						<E110-C6>----</E110-C6>
+
+						<E110-C1>Periodo Indemnizable (día)</E110-C1>
+						<E110-C2>365</E110-C2>
+						<E110-C3>365</E110-C3>
+						<E110-C4>365</E110-C4>
+						<E110-C5>365</E110-C5>
+						<E110-C6>365</E110-C6>
+
+						<E110-C1>Ind. Diaria por Hospitaliz. Por C. Causa</E110-C1>
+						<E110-C2>Incluido</E110-C2>
+						<E110-C3>Incluido</E110-C3>
+						<E110-C4>Incluido</E110-C4>
+						<E110-C5>Incluido</E110-C5>
+						<E110-C6>Incluido</E110-C6>
+
+					</E110-TABLA6>
+				</EM110>
+				
+				<EM160>
+				<!-- 
+					CARACTERISTICAS COLECTIVOS - - Solicitud de cambio: V3.0 - Evolutivo del documento Solicitud Tomador  
+					Regla asociada: Se muestra si <CODIGOPRODUCTO> es igual a SOLICITUD_TOMADOR
+				-->
+					<E160_TABLA-1>
+					<!--Nodo por cada Grupo Asegurable. Repetitiva 10 repeticiones-->
+						<E160-C1>Grupo 01</E160-C1>
+						<!--Grupo Asegurable-->
+						<E160-C2>PYME</E160-C2>
+						<!--Tipo Colectivo-->	
+						<E160-C3>Asistencia sanitaria completa</E160-C3>
+						<!--Modalidad-->
+						<E160-C4>02</E160-C4>
+						<!--Tipo de pago-->
+						<E160-C5>2</E160-C5>
+						<!--Número de asegurados-->
+						<E160-C6>Conyuge</E160-C6>
+						<E160-C6>Hijos</E160-C6>
+						<!--Parentescos admitidos-->
+						<E160_GARANTIAS>
+						<!--Nodo Garantias-->
+							<E160-C7>Asistencia primaria</E160-C7>
+							<!--Nombre-->
+							<E160-C8>Especialidad/Garantia</E160-C8>
+							<!--Cabecera = Especialidad/Garantia-->
+							<E160-C8>Medicina general</E160-C8>
+							<!--Detalle Especialidad/Garantia-->
+							<E160-C8>Pediatría</E160-C8>
+							<E160-C8>Enfermería</E160-C8>
+						</E160_GARANTIAS>
+						<E160_GARANTIAS>
+							<E160-C7>Medios de diagnóstico</E160-C7>
+							<E160-C8>Especialidad/Garantia</E160-C8>
+							<E160-C8>Medicina general</E160-C8>
+							<E160-C8>Medios de diagnóstico específicos</E160-C8>
+						</E160_GARANTIAS>
+						<E160_GARANTIAS>
+							<E160-C7>Medicina especializada ambulatoria</E160-C7>
+							<E160-C8>Especialidad/Garantia</E160-C8>
+							<E160-C8>Asistencia especializada</E160-C8>
+							<E160-C8>Ginecología y obstetricia</E160-C8>
+							<E160-C8>Medicina general</E160-C8>
+							<E160-C8>Garantía bucodental</E160-C8>
+							<E160-C8>Psicoterapia</E160-C8>
+							<E160-C8>Osteopatía</E160-C8>
+							<E160-C8>Estudio biomecánico de la marcha</E160-C8>
+							<E160-C8>Tratamiento de esterilidad de la pareja</E160-C8>
+						</E160_GARANTIAS>
+						<E160_GARANTIAS>
+							<E160-C7>Asistencia hospitalaria</E160-C7>
+							<E160-C8>Especialidad/Garantia</E160-C8>
+							<E160-C8>Hospitalización médica y quirúrgica</E160-C8>
+							<E160-C8>Prótesis e implantes</E160-C8>
+							<E160-C8>Medicina general</E160-C8>
+							<E160-C8>Urgencias hospitalarias</E160-C8>
+						</E160_GARANTIAS>
+						<E160-C10>NO</E160-C10>
+						<!--COPAGO. Ejemplos: SI o NO-->
+					</E160_TABLA-1>
+					<E160_TABLA-2>
+						<E160-C1>Grupo 02</E160-C1>
+						<E160-C2>PYME</E160-C2>
+						<E160-C3>Asistencia sanitaria completa</E160-C3>
+						<E160-C4>101</E160-C4>
+						<E160-C5>18</E160-C5>
+						<E160-C6>Titular</E160-C6>
+						<E160-C6>Conyuge</E160-C6>
+						<E160_GARANTIAS>
+							<E160-C7>Asistencia primaria</E160-C7>
+							<E160-C8>Especialidad/Garantia</E160-C8>
+							<E160-C8>Medicina general</E160-C8>
+							<E160-C8>Pediatría</E160-C8>
+						</E160_GARANTIAS>
+						<E160_GARANTIAS>
+							<E160-C7>Medicina especializada ambulatoria</E160-C7>
+							<E160-C8>Especialidad/Garantia</E160-C8>
+							<E160-C8>Medicina general</E160-C8>
+							<E160-C8>Ginecología y obstetricia</E160-C8>
+							<E160-C8>Psicoterapia</E160-C8>
+							<E160-C8>Tratamiento de esterilidad de la pareja</E160-C8>
+						</E160_GARANTIAS>
+						<E160_GARANTIAS>
+							<E160-C7>Asistencia hospitalaria</E160-C7>
+							<E160-C8>Especialidad/Garantia</E160-C8>
+							<E160-C8>Medicina general</E160-C8>
+							<E160-C8>Urgencias hospitalarias</E160-C8>
+						</E160_GARANTIAS>
+						<E160_GARANTIAS>
+							<E160-C7>Garantías secundarias</E160-C7>
+							<E160-C8>Especialidad/Garantia</E160-C8>
+							<E160-C8>Segundo diagnostico internacional</E160-C8>
+							<E160-C8>Medicina general</E160-C8>
+							<E160-C8>Adopción</E160-C8>
+							<E160-C8>Asistencia en viaje</E160-C8>
+							<E160-C8>Fallecimiento por accidente</E160-C8>
+						</E160_GARANTIAS>
+						<E160-C10>SI</E160-C10>
+					</E160_TABLA-2>
+					
+					<E160_TABLA-3>
+						<E160-C1>Grupo 02</E160-C1>
+						<E160-C2>PYME</E160-C2>
+						<E160-C3>Asistencia sanitaria completa</E160-C3>
+						<E160-C4>101</E160-C4>
+						<E160-C5>18</E160-C5>
+						<E160-C6>Titular</E160-C6>
+						<E160-C6>Conyuge</E160-C6>
+						<E160_GARANTIAS>
+							<E160-C7>Asistencia primaria</E160-C7>
+							<E160-C8>Especialidad/Garantia</E160-C8>
+							<E160-C8>Medicina general</E160-C8>
+							<E160-C8>Pediatría</E160-C8>
+						</E160_GARANTIAS>
+						<E160_GARANTIAS>
+							<E160-C7>Medicina especializada ambulatoria</E160-C7>
+							<E160-C8>Especialidad/Garantia</E160-C8>
+							<E160-C8>Medicina general</E160-C8>
+							<E160-C8>Ginecología y obstetricia</E160-C8>
+							<E160-C8>Psicoterapia</E160-C8>
+							<E160-C8>Tratamiento de esterilidad de la pareja</E160-C8>
+						</E160_GARANTIAS>
+						<E160_GARANTIAS>
+							<E160-C7>Asistencia hospitalaria</E160-C7>
+							<E160-C8>Especialidad/Garantia</E160-C8>
+							<E160-C8>Medicina general</E160-C8>
+							<E160-C8>Urgencias hospitalarias</E160-C8>
+						</E160_GARANTIAS>
+						<E160_GARANTIAS>
+							<E160-C7>Garantías secundarias</E160-C7>
+							<E160-C8>Medicina general</E160-C8>
+							<E160-C8>Segundo diagnostico internacional</E160-C8>
+							<E160-C8>Acceso a red hospitalaria de EEUU</E160-C8>
+							<E160-C8>Adopción</E160-C8>
+							<E160-C8>Asistencia en viaje</E160-C8>
+							<E160-C8>Fallecimiento por accidente</E160-C8>
+						</E160_GARANTIAS>
+						<E160-C10>SI</E160-C10>
+					</E160_TABLA-3>
+					
+					<E160_TABLA-4>
+						<E160-C1>Grupo 02</E160-C1>
+						<E160-C2>PYME</E160-C2>
+						<E160-C4>101</E160-C4>
+						<E160-C5>18</E160-C5>
+						<E160-C6>Titular</E160-C6>
+						<E160-C6>Conyuge</E160-C6>
+						<E160_GARANTIAS>
+							<E160-C7>Asistencia primaria</E160-C7>
+							<E160-C8>Especialidad/Garantia</E160-C8>
+							<E160-C8>Medicina general</E160-C8>
+							<E160-C8>Pediatría</E160-C8>
+						</E160_GARANTIAS>
+						<E160_GARANTIAS>
+							<E160-C7>Medicina especializada ambulatoria</E160-C7>
+							<E160-C8>Especialidad/Garantia</E160-C8>
+							<E160-C8>Asistencia especializada</E160-C8>
+							<E160-C8>Medicina general</E160-C8>
+							<E160-C8>Psicoterapia</E160-C8>
+							<E160-C8>Tratamiento de esterilidad de la pareja</E160-C8>
+						</E160_GARANTIAS>
+						<E160_GARANTIAS>
+							<E160-C7>Asistencia hospitalaria</E160-C7>
+							<E160-C8>Especialidad/Garantia</E160-C8>
+							<E160-C8>Medicina general</E160-C8>
+							<E160-C8>Urgencias hospitalarias</E160-C8>
+						</E160_GARANTIAS>
+						<E160_GARANTIAS>
+							<E160-C7>Garantías secundarias</E160-C7>
+							<E160-C8>Especialidad/Garantia</E160-C8>
+							<E160-C8>Segundo diagnostico internacional</E160-C8>
+							<E160-C8>Medicina general</E160-C8>
+							<E160-C8>Adopción</E160-C8>
+							<E160-C8>Asistencia en viaje</E160-C8>
+							<E160-C8>Fallecimiento por accidente</E160-C8>
+						</E160_GARANTIAS>
+						<E160-C10>SI</E160-C10>
+					</E160_TABLA-4>
+					<E160_TABLA-5>
+						<E160-C1>Grupo 05</E160-C1>
+						<E160-C2>PYME</E160-C2>
+						<E160-C3>Asistencia sanitaria completa</E160-C3>
+						<E160-C4>101</E160-C4>
+						<E160-C5>18</E160-C5>
+						<E160-C6>Titular</E160-C6>
+						<E160-C6>Conyuge</E160-C6>
+						<E160_GARANTIAS>
+							<E160-C7>Asistencia primaria</E160-C7>
+							<E160-C8>Especialidad/Garantia</E160-C8>
+							<E160-C8>Medicina general</E160-C8>
+							<E160-C8>Pediatría</E160-C8>
+						</E160_GARANTIAS>
+						<E160_GARANTIAS>
+							<E160-C7>Medicina especializada ambulatoria</E160-C7>
+							<E160-C8>Especialidad/Garantia</E160-C8>
+							<E160-C8>Medicina general</E160-C8>
+							<E160-C8>Ginecología y obstetricia</E160-C8>
+							<E160-C8>Psicoterapia</E160-C8>
+							<E160-C8>Tratamiento de esterilidad de la pareja</E160-C8>
+						</E160_GARANTIAS>
+						<E160_GARANTIAS>
+							<E160-C7>Asistencia hospitalaria</E160-C7>
+							<E160-C8>Especialidad/Garantia</E160-C8>
+							<E160-C8>Medicina general</E160-C8>
+							<E160-C8>Urgencias hospitalarias</E160-C8>
+						</E160_GARANTIAS>
+						<E160_GARANTIAS>
+							<E160-C7>Garantías secundarias</E160-C7>
+							<E160-C8>Especialidad/Garantia</E160-C8>
+							<E160-C8>Segundo diagnostico internacional</E160-C8>
+							<E160-C8>Medicina general</E160-C8>
+							<E160-C8>Adopción</E160-C8>
+							<E160-C8>Asistencia en viaje</E160-C8>
+							<E160-C8>Fallecimiento por accidente</E160-C8>
+						</E160_GARANTIAS>
+						<E160-C10>SI</E160-C10>
+					</E160_TABLA-5>
+					<E160_TABLA-6>
+						<E160-C1>Grupo 06</E160-C1>
+						<E160-C2>PYME</E160-C2>
+						<E160-C3>Asistencia sanitaria completa</E160-C3>
+						<E160-C4>101</E160-C4>
+						<E160-C5>18</E160-C5>
+						<E160-C6>Titular</E160-C6>
+						<E160-C6>Conyuge</E160-C6>
+						<E160_GARANTIAS>
+							<E160-C7>Asistencia primaria</E160-C7>
+							<E160-C8>Especialidad/Garantia</E160-C8>
+							<E160-C8>Medicina general</E160-C8>
+							<E160-C8>Medicina general</E160-C8>
+						</E160_GARANTIAS>
+						<E160_GARANTIAS>
+							<E160-C7>Medicina especializada ambulatoria</E160-C7>
+							<E160-C8>Especialidad/Garantia</E160-C8>
+							<E160-C8>Asistencia especializada</E160-C8>
+							<E160-C8>Ginecología y obstetricia</E160-C8>
+							<E160-C8>Medicina general</E160-C8>
+							<E160-C8>Tratamiento de esterilidad de la pareja</E160-C8>
+						</E160_GARANTIAS>
+						<E160_GARANTIAS>
+							<E160-C7>Asistencia hospitalaria</E160-C7>
+							<E160-C8>Especialidad/Garantia</E160-C8>
+							<E160-C8>Medicina general</E160-C8>
+							<E160-C8>Urgencias hospitalarias</E160-C8>
+						</E160_GARANTIAS>
+						<E160_GARANTIAS>
+							<E160-C7>Garantías secundarias</E160-C7>
+							<E160-C8>Especialidad/Garantia</E160-C8>
+							<E160-C8>Medicina general</E160-C8>
+							<E160-C8>Acceso a red hospitalaria de EEUU</E160-C8>
+							<E160-C8>Adopción</E160-C8>
+							<E160-C8>Asistencia en viaje</E160-C8>
+							<E160-C8>Fallecimiento por accidente</E160-C8>
+						</E160_GARANTIAS>
+						<E160-C10>SI</E160-C10>
+					</E160_TABLA-6>
+					<E160_TABLA-7>
+						<E160-C1>Grupo 07</E160-C1>
+						<E160-C2>PYME</E160-C2>
+						<E160-C3>Asistencia sanitaria completa</E160-C3>
+						<E160-C4>101</E160-C4>
+						<E160-C5>18</E160-C5>
+						<E160-C6>Titular</E160-C6>
+						<E160-C6>Conyuge</E160-C6>
+						<E160_GARANTIAS>
+							<E160-C7>Asistencia primaria</E160-C7>
+							<E160-C8>Especialidad/Garantia</E160-C8>
+							<E160-C8>Medicina general</E160-C8>
+							<E160-C8>Pediatría</E160-C8>
+						</E160_GARANTIAS>
+						<E160_GARANTIAS>
+							<E160-C7>Medicina especializada ambulatoria</E160-C7>
+							<E160-C8>Especialidad/Garantia</E160-C8>
+							<E160-C8>Asistencia especializada</E160-C8>
+							<E160-C8>Medicina general</E160-C8>
+							<E160-C8>Psicoterapia</E160-C8>
+							<E160-C8>Tratamiento de esterilidad de la pareja</E160-C8>
+						</E160_GARANTIAS>
+						<E160_GARANTIAS>
+							<E160-C7>Asistencia hospitalaria</E160-C7>
+							<E160-C8>Especialidad/Garantia</E160-C8>
+							<E160-C8>Medicina general</E160-C8>
+							<E160-C8>Urgencias hospitalarias</E160-C8>
+						</E160_GARANTIAS>
+						<E160_GARANTIAS>
+							<E160-C7>Garantías secundarias</E160-C7>
+							<E160-C8>Especialidad/Garantia</E160-C8>
+							<E160-C8>Segundo diagnostico internacional</E160-C8>
+							<E160-C8>Medicina general</E160-C8>
+							<E160-C8>Adopción</E160-C8>
+							<E160-C8>Asistencia en viaje</E160-C8>
+							<E160-C8>Fallecimiento por accidente</E160-C8>
+						</E160_GARANTIAS>
+						<E160-C10>SI</E160-C10>
+					</E160_TABLA-7>
+					<E160_TABLA-8>
+						<E160-C1>Grupo 08</E160-C1>
+						<E160-C2>PYME</E160-C2>
+						<E160-C3>Asistencia sanitaria completa</E160-C3>
+						<E160-C4>101</E160-C4>
+						<E160-C5>18</E160-C5>
+						<E160-C6>Titular</E160-C6>
+						<E160-C6>Conyuge</E160-C6>
+						<E160_GARANTIAS>
+							<E160-C7>Asistencia primaria</E160-C7>
+							<E160-C8>Especialidad/Garantia</E160-C8>
+							<E160-C8>Medicina general</E160-C8>
+							<E160-C8>Medicina general</E160-C8>
+						</E160_GARANTIAS>
+						<E160_GARANTIAS>
+							<E160-C7>Medicina especializada ambulatoria</E160-C7>
+							<E160-C8>Especialidad/Garantia</E160-C8>
+							<E160-C8>Asistencia especializada</E160-C8>
+							<E160-C8>Ginecología y obstetricia</E160-C8>
+							<E160-C8>Medicina general</E160-C8>
+							<E160-C8>Tratamiento de esterilidad de la pareja</E160-C8>
+						</E160_GARANTIAS>
+						<E160_GARANTIAS>
+							<E160-C7>Asistencia hospitalaria</E160-C7>
+							<E160-C8>Especialidad/Garantia</E160-C8>
+							<E160-C8>Medicina general</E160-C8>
+							<E160-C8>Urgencias hospitalarias</E160-C8>
+						</E160_GARANTIAS>
+						<E160_GARANTIAS>
+							<E160-C7>Garantías secundarias</E160-C7>
+							<E160-C8>Especialidad/Garantia</E160-C8>
+							<E160-C8>Segundo diagnostico internacional</E160-C8>
+							<E160-C8>Medicina general</E160-C8>
+							<E160-C8>Adopción</E160-C8>
+							<E160-C8>Asistencia en viaje</E160-C8>
+							<E160-C8>Fallecimiento por accidente</E160-C8>
+						</E160_GARANTIAS>
+						<E160-C10>SI</E160-C10>
+					</E160_TABLA-8>
+					<E160_TABLA-9>
+						<E160-C1>Grupo 09</E160-C1>
+						<E160-C2>PYME</E160-C2>
+						<E160-C3>Asistencia sanitaria completa</E160-C3>
+						<E160-C4>101</E160-C4>
+						<E160-C5>18</E160-C5>
+						<E160-C6>Titular</E160-C6>
+						<E160-C6>Conyuge</E160-C6>
+						<E160_GARANTIAS>
+							<E160-C7>Asistencia primaria</E160-C7>
+							<E160-C8>Especialidad/Garantia</E160-C8>
+							<E160-C8>Medicina general</E160-C8>
+							<E160-C8>Pediatría</E160-C8>
+						</E160_GARANTIAS>
+						<E160_GARANTIAS>
+							<E160-C7>Medicina especializada ambulatoria</E160-C7>
+							<E160-C8>Especialidad/Garantia</E160-C8>
+							<E160-C8>Asistencia especializada</E160-C8>
+							<E160-C8>Medicina general</E160-C8>
+							<E160-C8>Psicoterapia</E160-C8>
+							<E160-C8>Tratamiento de esterilidad de la pareja</E160-C8>
+						</E160_GARANTIAS>
+						<E160_GARANTIAS>
+							<E160-C7>Asistencia hospitalaria</E160-C7>
+							<E160-C8>Especialidad/Garantia</E160-C8>
+							<E160-C8>Medicina general</E160-C8>
+							<E160-C8>Urgencias hospitalarias</E160-C8>
+						</E160_GARANTIAS>
+						<E160_GARANTIAS>
+							<E160-C7>Garantías secundarias</E160-C7>
+							<E160-C8>Especialidad/Garantia</E160-C8>
+							<E160-C8>Segundo diagnostico internacional</E160-C8>
+							<E160-C8>Medicina general</E160-C8>
+							<E160-C8>Adopción</E160-C8>
+							<E160-C8>Asistencia en viaje</E160-C8>
+							<E160-C8>Fallecimiento por accidente</E160-C8>
+						</E160_GARANTIAS>
+						<E160-C10>SI</E160-C10>
+					</E160_TABLA-9>
+					<E160_TABLA-10>
+						<E160-C1>Grupo 10</E160-C1>
+						<E160-C2>PYME</E160-C2>
+						<E160-C3>Asistencia sanitaria completa</E160-C3>
+						<E160-C4>101</E160-C4>
+						<E160-C5>18</E160-C5>
+						<E160-C6>Titular</E160-C6>
+						<E160-C6>Conyuge</E160-C6>
+						<E160_GARANTIAS>
+							<E160-C7>Asistencia primaria</E160-C7>
+							<E160-C8>Especialidad/Garantia</E160-C8>
+							<E160-C8>Medicina general</E160-C8>
+							<E160-C8>Medicina general</E160-C8>
+						</E160_GARANTIAS>
+						<E160_GARANTIAS>
+							<E160-C7>Medicina especializada ambulatoria</E160-C7>
+							<E160-C8>Especialidad/Garantia</E160-C8>
+							<E160-C8>Asistencia especializada</E160-C8>
+							<E160-C8>Ginecología y obstetricia</E160-C8>
+							<E160-C8>Medicina general</E160-C8>
+							<E160-C8>Tratamiento de esterilidad de la pareja</E160-C8>
+						</E160_GARANTIAS>
+						<E160_GARANTIAS>
+							<E160-C7>Asistencia hospitalaria</E160-C7>
+							<E160-C8>Especialidad/Garantia</E160-C8>
+							<E160-C8>Medicina general</E160-C8>
+							<E160-C8>Urgencias hospitalarias</E160-C8>
+						</E160_GARANTIAS>
+						<E160_GARANTIAS>
+							<E160-C7>Garantías secundarias</E160-C7>
+							<E160-C8>Especialidad/Garantia</E160-C8>
+							<E160-C8>Segundo diagnostico internacional</E160-C8>
+							<E160-C8>Acceso a red hospitalaria de EEUU</E160-C8>
+							<E160-C8>Medicina generaln</E160-C8>
+							<E160-C8>Asistencia en viaje</E160-C8>
+							<E160-C8>Fallecimiento por accidente</E160-C8>
+						</E160_GARANTIAS>
+						<E160-C10>SI</E160-C10>
+					</E160_TABLA-10>
+				</EM160>
+				
+				<EM175>
+					<!-- Clausulas limitativas  ESTE CAMPO PUEDE REPETIRSE HASTA 15 VECES-->
+					<E175-C1>ES-SUSTITUYE-175-C1.rtf</E175-C1>
+					<!-- CLAUSULAS LIMITATIVAS -->
+					<E175-C1>ES-SUSTITUYE-175-C1.rtf</E175-C1>
+					<!-- CLAUSULAS LIMITATIVAS -->
+					<E175-C2>ES-SUSTITUYE-175-C2.rtf</E175-C2>
+					<!-- TEXTO REIMPRESION -->
+					<E175-C3>ES-EXTRACTO-175-C3-PRODUCTO-34.rtf</E175-C3>
+					<E175-C4>VALOR_FIRMA</E175-C4>
+					<!-- EXTRACTO DE CLAUSULAS -->
+				</EM175> 
+				<EM180>
+					<!-- Tratamiento de datos personales -->
+					<E180-C1>ES-LOPD-2018-MAPFRE-180-C1-SISSOL.rtf</E180-C1>
+					<!-- LOPD -->
+					<E180-C2>MAPFRE ESPAÑA</E180-C2>
+					<!-- TEXTO MEDIADOR -->
+					<E180-C3>CLIENTE</E180-C3>
+					<!-- ROL DEL CLIENTE -->
+					<E180-C4>ES-FIRMA-203-C1.rtf</E180-C4>
+					<!-- RTF ANTERIOR A LA LOPD -->					
+				</EM180>
+				<EM190>
+					<!-- Pie -->
+					<E190-C1>A 31 de Diciembre de 2018</E190-C1>
+					<!-- FECHA. FORMATO " A XX de XXXXXXX de XXXX" -->
+					<E190-C3>SELLO Y FIRMA</E190-C3>
+					<!-- SELLO Y FIRMA -->
+					<E190-C4>FIRMA CLIENTE</E190-C4>
+					<!-- FIRMA CLIENTE -->
+					<E190-C7>CARGO Y NOMBRE</E190-C7>
+					<!-- CARGO Y NOMBRE -->
+					<E190-C8>PAGINADO</E190-C8>
+					<!-- PAGINADO. FORMATO "Página X de Y" -->
+				</EM190>
+
+				<!--************************************************************************************-->
+				<!-- ********************CUESTIONARIOS**************************************************-->
+				<EM200-C1>
+					<!-- CUESTIONARIO DE SALUD Nº 1-->
+					<E200-C1>44 444 444 A</E200-C1>
+					<!-- DOCUMENTO IDENTIDAD -->
+					<E200-C2>JOSE ANDRES GARCIA -1</E200-C2>
+					<!-- NOMBRE Y APELLIDOS -->
+
+					<CUESTIONARIO>
+						<E200-C3>1.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿TIENE ALGUNA POLIZA SIMILAR A LAS COBERTURAS SOLICITADAS?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado_check.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>EN LA COMPAÑIA PEPITO[cr]EN OTRA COMPAÑÍA[cr]NO SÉ QUÉ[cr]NO SÉ CUÁNTOS</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>2.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>PESO (EN KGS.)</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5>60</E200-C5>
+						<E200-C6-INDICADOR-S/>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N/>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7/>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>3.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>ESTATURA (EN CMS.)</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5>160</E200-C5>
+						<E200-C6-INDICADOR-S/>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N/>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7/>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>4.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿HA ESTADO INGRESADO EN ALGÚN HOSPITAL O HA SIDO INTERVENIDO?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado_check.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>ASTIGMATISMO- NO OPERADO, BRONQUITIS, OTROS SUPUESTOS</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>5.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿TIENE PREVISTA ALGUNA INTERVENCION QUIRURGICA?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado_check.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>EN LA PAZ</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>6.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿PADECE HA PADECIDO ALUNA ENFERMEDAD, SE ENCUENTRA BAJO TRATAMIENTO CONTROL MEDICO POR ALGUNA PATOLOGIA DIFERENTE DE LAS QUE SE MUESTRA EN ESTA LISTA?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado_check.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>BRONQUITIS[cr]AMIGDALITIS[cr]CATARRO[cr]INFECCION</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>7.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿HA ESTADO INGRESADO EN ALGÚN HOSPITAL O HA SIDO INTERVENIDO?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado_check.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>HOSPITAL LA PAZ</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>XX.W.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿prueba?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado_check.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>HOSPITAL LA PAZ</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+
+
+					<!-- LISTA DE PATOLOGIAS -->
+					<E200-C8>
+						<NOMBRES>ACNE SIN TRATAMIENTO</NOMBRES>
+						<NOMBRES>AMIGDALITIS AGUDA</NOMBRES>
+						<NOMBRES>APENDICITIS SIN SECUELAS</NOMBRES>
+						<NOMBRES>CEFALEAS, JAQUECAS Y MIGRAÑAS LEVES</NOMBRES>				
+						<NOMBRES>ANGINAS</NOMBRES>
+						<NOMBRES>APENDICITIS SIN SECUELAS</NOMBRES>
+						<NOMBRES>DERMATITIS</NOMBRES>
+						<NOMBRES>ANGINAS</NOMBRES>
+						<NOMBRES>APENDICITIS SIN SECUELAS</NOMBRES>
+						<NOMBRES>MIGRAÑAS</NOMBRES>
+						<NOMBRES>EXTREÑIMIENTO CRONICO</NOMBRES>
+						<NOMBRES>ULCERA ESTOMACAL</NOMBRES>
+						<NOMBRES>APENDICITIS SIN SECUELAS</NOMBRES>
+						<NOMBRES>CISTITIS</NOMBRES>
+						<NOMBRES>BRONQUITIS AGUDA </NOMBRES>
+						<NOMBRES>CHALAZON INTERVENIDA</NOMBRES>	
+					</E200-C8> 
+					<E200-C9>ES-PIE-200-C9-SISSOL.rtf</E200-C9>
+					<E200-C10>VALOR</E200-C10>
+					<!-- TEXTO PIE -->
+				</EM200-C1>
+				
+				
+
+				<EM201-C1>
+					<!-- CUESTIONARIO LABORAL Nº1 -->
+					<E201-C1>44 444 444 A</E201-C1>
+					<!-- DOCUMENTO IDENTIDAD -->
+					<E201-C2>MARIA DE LA O -1</E201-C2>
+					<!-- NOMBRE Y APELLIDOS -->
+					<E201-C3>SALAMANCA, 14 2B</E201-C3>
+					<!-- DOMICILIO PARTICULAR -->
+					<E201-C4>LAS PALMAS</E201-C4>
+					<!-- LOCALIDAD -->
+					<E201-C5>35335</E201-C5>
+					<!-- CODIGO POSTAL -->
+					<E201-C6>LAS PALMAS GC</E201-C6>
+					<!-- PROVINCIA -->
+					<E201-C7>928 222 222</E201-C7>
+					<!-- TELEFONO -->
+					<CUESTIONARIO>
+						<E201-C8>1</E201-C8>
+						<!-- Nº PREGUNTAS -->
+						<E201-C9>¿TRABAJA EN SU DOMICILIO PARTICULAR?</E201-C9>
+						<!-- TEXTO PREGUNTA -->
+						<E201-C10>SI</E201-C10>
+						<!-- VALOR RESPUESTA -->
+						<E201-C11>OTRO[cr]NINGUNO</E201-C11>
+						<!-- DESCRIPCION RESPUESTA -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E201-C8>2</E201-C8>
+						<!-- Nº PREGUNTAS -->
+						<E201-C9>¿COTIZA A LA SEGURIDAD SOCIAL?</E201-C9>
+						<!-- TEXTO PREGUNTA -->
+						<E201-C10>SI</E201-C10>
+						<!-- VALOR RESPUESTA -->
+						<E201-C11>XXXX</E201-C11>
+						<!-- DESCRIPCION RESPUESTA -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E201-C8>3</E201-C8>
+						<!-- Nº PREGUNTAS -->
+						<E201-C9>¿COTIZA A LA SEGURIDAD SOCIAL?</E201-C9>
+						<!-- TEXTO PREGUNTA -->
+						<E201-C10>NO</E201-C10>
+						<!-- VALOR RESPUESTA -->
+						<E201-C11>CADA MES</E201-C11>
+						<!-- DESCRIPCION RESPUESTA -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E201-C8>4</E201-C8>
+						<!-- Nº PREGUNTAS -->
+						<E201-C9>¿TRABAJA EN SU DOMICILIO PARTICULAR?</E201-C9>
+						<!-- TEXTO PREGUNTA -->
+						<E201-C10>SI</E201-C10>
+						<!-- VALOR RESPUESTA -->
+						<E201-C11>OTRO[cr]NINGUNO</E201-C11>
+						<!-- DESCRIPCION RESPUESTA -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E201-C8>5</E201-C8>
+						<!-- Nº PREGUNTAS -->
+						<E201-C9>¿COTIZA A LA SEGURIDAD SOCIAL?</E201-C9>
+						<!-- TEXTO PREGUNTA -->
+						<E201-C10>SI</E201-C10>
+						<!-- VALOR RESPUESTA -->
+						<E201-C11>EN MIS RATOS LIBRES</E201-C11>
+						<!-- DESCRIPCION RESPUESTA -->
+					</CUESTIONARIO>
+					<E201-C12>ES-LOPD-FIRMA-182-C1-SISSOL.rtf</E201-C12>
+					<!-- TEXTO PIE LOPD -->
+					<E201-C13>ES-PIE-201-C13-SISSOL.rtf</E201-C13>
+					<!--TEXTO PIE  -->
+					<E201-C14>ES-LOPD-ITT-201-C14-SISSOL.rtf</E201-C14>
+					<E201-C15>VALOR_PRIMA</E201-C15>
+					<!-- CLAUSULA LOPD ITT -->
+				</EM201-C1>
+
+				<!--************************************************************************************-->
+				<EM200-C2>
+					<!-- CUESTIONARIO DE SALUD Nº 2-->
+					<E200-C1>44 444 444 A</E200-C1>
+					<!-- DOCUMENTO IDENTIDAD -->
+					<E200-C2>JOSE ANDRES GARCIA -2</E200-C2>
+					<!-- NOMBRE Y APELLIDOS -->
+
+					<CUESTIONARIO>
+						<E200-C3>1.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿TIENE ALGUNA POLIZA SIMILAR A LAS COBERTURAS SOLICITADAS?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado_check.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>EN LA COMPAÑIA PEPITO[cr]EN OTRA COMPAÑÍA[cr]NO SÉ QUÉ[cr]NO SÉ CUÁNTOS</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>2.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>PESO (EN KGS.)</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5>60</E200-C5>
+						<E200-C6-INDICADOR-S/>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N/>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7/>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>3.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>ESTATURA (EN CMS.)</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5>160</E200-C5>
+						<E200-C6-INDICADOR-S/>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N/>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7/>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>4.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿HA ESTADO INGRESADO EN ALGÚN HOSPITAL O HA SIDO INTERVENIDO?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado_check.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>ASTIGMATISMO- NO OPERADO, BRONQUITIS, OTROS SUPUESTOS</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>5.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿TIENE PREVISTA ALGUNA INTERVENCION QUIRURGICA?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado_check.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>EN LA PAZ</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>6.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿PADECE HA PADECIDO ALUNA ENFERMEDAD, SE ENCUENTRA BAJO TRATAMIENTO CONTROL MEDICO POR ALGUNA PATOLOGIA DIFERENTE DE LAS QUE SE MUESTRA EN ESTA LISTA?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado_check.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>BRONQUITIS[cr]AMIGDALITIS[cr]CATARRO[cr]INFECCION</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>7.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿HA ESTADO INGRESADO EN ALGÚN HOSPITAL O HA SIDO INTERVENIDO?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado_check.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>HOSPITAL LA PAZ</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>XX.W.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿prueba?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado_check.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>HOSPITAL LA PAZ</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+
+
+
+					<!-- LISTA DE PATOLOGIAS -->
+					<E200-C8>
+						<NOMBRES>ACNE SIN TRATAMIENTO</NOMBRES>
+						<NOMBRES>AMIGDALITIS AGUDA</NOMBRES>
+						<NOMBRES>APENDICITIS SIN SECUELAS</NOMBRES>
+						<NOMBRES>CEFALEAS, JAQUECAS Y MIGRAÑAS LEVES</NOMBRES>				
+						<NOMBRES>ANGINAS</NOMBRES>
+						<NOMBRES>APENDICITIS SIN SECUELAS</NOMBRES>
+						<NOMBRES>DERMATITIS</NOMBRES>
+						<NOMBRES>ANGINAS</NOMBRES>
+						<NOMBRES>APENDICITIS SIN SECUELAS</NOMBRES>
+						<NOMBRES>MIGRAÑAS</NOMBRES>
+						<NOMBRES>EXTREÑIMIENTO CRONICO</NOMBRES>
+						<NOMBRES>ULCERA ESTOMACAL</NOMBRES>
+						<NOMBRES>APENDICITIS SIN SECUELAS</NOMBRES>
+						<NOMBRES>CISTITIS</NOMBRES>
+						<NOMBRES>BRONQUITIS AGUDA </NOMBRES>
+						<NOMBRES>CHALAZON INTERVENIDA</NOMBRES>	
+					</E200-C8> 
+					<E200-C9>ES-PIE-200-C9-SISSOL.rtf</E200-C9>
+					<!-- TEXTO PIE -->
+				</EM200-C2>
+
+
+				<EM201-C2>
+					<!-- CUESTIONARIO LABORAL Nº2 -->
+					<E201-C1>44 444 444 A</E201-C1>
+					<!-- DOCUMENTO IDENTIDAD -->
+					<E201-C2>MARIA DE LA O -2</E201-C2>
+					<!-- NOMBRE Y APELLIDOS -->
+					<E201-C3>SALAMANCA, 14 2B</E201-C3>
+					<!-- DOMICILIO PARTICULAR -->
+					<E201-C4>LAS PALMAS</E201-C4>
+					<!-- LOCALIDAD -->
+					<E201-C5>35335</E201-C5>
+					<!-- CODIGO POSTAL -->
+					<E201-C6>LAS PALMAS GC</E201-C6>
+					<!-- PROVINCIA -->
+					<E201-C7>928 222 222</E201-C7>
+					<!-- TELEFONO -->
+					<CUESTIONARIO>
+						<E201-C8>1</E201-C8>
+						<!-- Nº PREGUNTAS -->
+						<E201-C9>¿TRABAJA EN SU DOMICILIO PARTICULAR?</E201-C9>
+						<!-- TEXTO PREGUNTA -->
+						<E201-C10>SI</E201-C10>
+						<!-- VALOR RESPUESTA -->
+						<E201-C11>OTRO[cr]NINGUNO</E201-C11>
+						<!-- DESCRIPCION RESPUESTA -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E201-C8>2</E201-C8>
+						<!-- Nº PREGUNTAS -->
+						<E201-C9>¿COTIZA A LA SEGURIDAD SOCIAL?</E201-C9>
+						<!-- TEXTO PREGUNTA -->
+						<E201-C10>SI</E201-C10>
+						<!-- VALOR RESPUESTA -->
+						<E201-C11>XXXX</E201-C11>
+						<!-- DESCRIPCION RESPUESTA -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E201-C8>3</E201-C8>
+						<!-- Nº PREGUNTAS -->
+						<E201-C9>¿COTIZA A LA SEGURIDAD SOCIAL?</E201-C9>
+						<!-- TEXTO PREGUNTA -->
+						<E201-C10>NO</E201-C10>
+						<!-- VALOR RESPUESTA -->
+						<E201-C11>CADA MES</E201-C11>
+						<!-- DESCRIPCION RESPUESTA -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E201-C8>4</E201-C8>
+						<!-- Nº PREGUNTAS -->
+						<E201-C9>¿TRABAJA EN SU DOMICILIO PARTICULAR?</E201-C9>
+						<!-- TEXTO PREGUNTA -->
+						<E201-C10>SI</E201-C10>
+						<!-- VALOR RESPUESTA -->
+						<E201-C11>OTRO[cr]NINGUNO</E201-C11>
+						<!-- DESCRIPCION RESPUESTA -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E201-C8>5</E201-C8>
+						<!-- Nº PREGUNTAS -->
+						<E201-C9>¿COTIZA A LA SEGURIDAD SOCIAL?</E201-C9>
+						<!-- TEXTO PREGUNTA -->
+						<E201-C10>SI</E201-C10>
+						<!-- VALOR RESPUESTA -->
+						<E201-C11>EN MIS RATOS LIBRES</E201-C11>
+						<!-- DESCRIPCION RESPUESTA -->
+					</CUESTIONARIO>
+					<E201-C12>ES-LOPD-FIRMA-182-C1-SISSOL.rtf</E201-C12>
+					<!-- TEXTO PIE LOPD -->
+					<E201-C13>ES-PIE-201-C13-SISSOL.rtf</E201-C13>
+					<!--TEXTO PIE  -->
+					<E201-C14>ES-LOPD-ITT-201-C14-SISSOL.rtf</E201-C14>
+					<!-- CLAUSULA LOPD ITT -->
+				</EM201-C2>
+
+
+				<!--************************************************************************************-->
+				<EM200-C3>
+					<!-- CUESTIONARIO DE SALUD Nº 3-->
+					<E200-C1>44 444 444 A</E200-C1>
+					<!-- DOCUMENTO IDENTIDAD -->
+					<E200-C2>JOSE ANDRES GARCIA -3</E200-C2>
+					<!-- NOMBRE Y APELLIDOS -->
+
+					<CUESTIONARIO>
+						<E200-C3>1.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿TIENE ALGUNA POLIZA SIMILAR A LAS COBERTURAS SOLICITADAS?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado_check.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>EN LA COMPAÑIA PEPITO[cr]EN OTRA COMPAÑÍA[cr]NO SÉ QUÉ[cr]NO SÉ CUÁNTOS</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>2.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>PESO (EN KGS.)</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5>60</E200-C5>
+						<E200-C6-INDICADOR-S/>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N/>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7/>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>3.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>ESTATURA (EN CMS.)</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5>160</E200-C5>
+						<E200-C6-INDICADOR-S/>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N/>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7/>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>4.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿HA ESTADO INGRESADO EN ALGÚN HOSPITAL O HA SIDO INTERVENIDO?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado_check.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>ASTIGMATISMO- NO OPERADO, BRONQUITIS, OTROS SUPUESTOS</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>5.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿TIENE PREVISTA ALGUNA INTERVENCION QUIRURGICA?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado_check.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>EN LA PAZ</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>6.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿PADECE HA PADECIDO ALUNA ENFERMEDAD, SE ENCUENTRA BAJO TRATAMIENTO CONTROL MEDICO POR ALGUNA PATOLOGIA DIFERENTE DE LAS QUE SE MUESTRA EN ESTA LISTA?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado_check.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>BRONQUITIS[cr]AMIGDALITIS[cr]CATARRO[cr]INFECCION</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>7.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿HA ESTADO INGRESADO EN ALGÚN HOSPITAL O HA SIDO INTERVENIDO?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado_check.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>HOSPITAL LA PAZ</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>XX.W.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿prueba?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado_check.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>HOSPITAL LA PAZ</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+
+
+
+					<!-- LISTA DE PATOLOGIAS -->
+					<E200-C8>
+						<NOMBRES>ACNE SIN TRATAMIENTO</NOMBRES>
+						<NOMBRES>AMIGDALITIS AGUDA</NOMBRES>
+						<NOMBRES>APENDICITIS SIN SECUELAS</NOMBRES>
+						<NOMBRES>CEFALEAS, JAQUECAS Y MIGRAÑAS LEVES</NOMBRES>				
+						<NOMBRES>ANGINAS</NOMBRES>
+						<NOMBRES>APENDICITIS SIN SECUELAS</NOMBRES>
+						<NOMBRES>DERMATITIS</NOMBRES>
+						<NOMBRES>ANGINAS</NOMBRES>
+						<NOMBRES>APENDICITIS SIN SECUELAS</NOMBRES>
+						<NOMBRES>MIGRAÑAS</NOMBRES>
+						<NOMBRES>EXTREÑIMIENTO CRONICO</NOMBRES>
+						<NOMBRES>ULCERA ESTOMACAL</NOMBRES>
+						<NOMBRES>APENDICITIS SIN SECUELAS</NOMBRES>
+						<NOMBRES>CISTITIS</NOMBRES>
+						<NOMBRES>BRONQUITIS AGUDA </NOMBRES>
+						<NOMBRES>CHALAZON INTERVENIDA</NOMBRES>	
+					</E200-C8> 
+					<E200-C9>ES-PIE-200-C9-SISSOL.rtf</E200-C9>
+					<!-- TEXTO PIE -->
+				</EM200-C3>
+
+
+				<EM201-C3>
+					<!-- CUESTIONARIO LABORAL Nº3 -->
+					<E201-C1>44 444 444 A</E201-C1>
+					<!-- DOCUMENTO IDENTIDAD -->
+					<E201-C2>MARIA DE LA O -3</E201-C2>
+					<!-- NOMBRE Y APELLIDOS -->
+					<E201-C3>SALAMANCA, 14 2B</E201-C3>
+					<!-- DOMICILIO PARTICULAR -->
+					<E201-C4>LAS PALMAS</E201-C4>
+					<!-- LOCALIDAD -->
+					<E201-C5>35335</E201-C5>
+					<!-- CODIGO POSTAL -->
+					<E201-C6>LAS PALMAS GC</E201-C6>
+					<!-- PROVINCIA -->
+					<E201-C7>928 222 222</E201-C7>
+					<!-- TELEFONO -->
+					<CUESTIONARIO>
+						<E201-C8>1</E201-C8>
+						<!-- Nº PREGUNTAS -->
+						<E201-C9>¿TRABAJA EN SU DOMICILIO PARTICULAR?</E201-C9>
+						<!-- TEXTO PREGUNTA -->
+						<E201-C10>SI</E201-C10>
+						<!-- VALOR RESPUESTA -->
+						<E201-C11>OTRO[cr]NINGUNO</E201-C11>
+						<!-- DESCRIPCION RESPUESTA -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E201-C8>2</E201-C8>
+						<!-- Nº PREGUNTAS -->
+						<E201-C9>¿COTIZA A LA SEGURIDAD SOCIAL?</E201-C9>
+						<!-- TEXTO PREGUNTA -->
+						<E201-C10>SI</E201-C10>
+						<!-- VALOR RESPUESTA -->
+						<E201-C11>XXXX</E201-C11>
+						<!-- DESCRIPCION RESPUESTA -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E201-C8>3</E201-C8>
+						<!-- Nº PREGUNTAS -->
+						<E201-C9>¿COTIZA A LA SEGURIDAD SOCIAL?</E201-C9>
+						<!-- TEXTO PREGUNTA -->
+						<E201-C10>NO</E201-C10>
+						<!-- VALOR RESPUESTA -->
+						<E201-C11>CADA MES</E201-C11>
+						<!-- DESCRIPCION RESPUESTA -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E201-C8>4</E201-C8>
+						<!-- Nº PREGUNTAS -->
+						<E201-C9>¿TRABAJA EN SU DOMICILIO PARTICULAR?</E201-C9>
+						<!-- TEXTO PREGUNTA -->
+						<E201-C10>SI</E201-C10>
+						<!-- VALOR RESPUESTA -->
+						<E201-C11>OTRO[cr]NINGUNO</E201-C11>
+						<!-- DESCRIPCION RESPUESTA -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E201-C8>5</E201-C8>
+						<!-- Nº PREGUNTAS -->
+						<E201-C9>¿COTIZA A LA SEGURIDAD SOCIAL?</E201-C9>
+						<!-- TEXTO PREGUNTA -->
+						<E201-C10>SI</E201-C10>
+						<!-- VALOR RESPUESTA -->
+						<E201-C11>EN MIS RATOS LIBRES</E201-C11>
+						<!-- DESCRIPCION RESPUESTA -->
+					</CUESTIONARIO>
+					<E201-C12>ES-LOPD-FIRMA-182-C1-SISSOL.rtf</E201-C12>
+					<!-- TEXTO PIE LOPD -->
+					<E201-C13>ES-PIE-201-C13-SISSOL.rtf</E201-C13>
+					<!--TEXTO PIE  -->
+					<E201-C14>ES-LOPD-ITT-201-C14-SISSOL.rtf</E201-C14>
+					<!-- CLAUSULA LOPD ITT -->
+				</EM201-C3>
+
+
+				<!--************************************************************************************-->
+				<EM200-C4>
+					<!-- CUESTIONARIO DE SALUD Nº 4-->
+					<E200-C1>44 444 444 A</E200-C1>
+					<!-- DOCUMENTO IDENTIDAD -->
+					<E200-C2>JOSE ANDRES GARCIA -4</E200-C2>
+					<!-- NOMBRE Y APELLIDOS -->
+
+					<CUESTIONARIO>
+						<E200-C3>1.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿TIENE ALGUNA POLIZA SIMILAR A LAS COBERTURAS SOLICITADAS?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado_check.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>EN LA COMPAÑIA PEPITO[cr]EN OTRA COMPAÑÍA[cr]NO SÉ QUÉ[cr]NO SÉ CUÁNTOS</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>2.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>PESO (EN KGS.)</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5>60</E200-C5>
+						<E200-C6-INDICADOR-S/>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N/>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7/>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>3.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>ESTATURA (EN CMS.)</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5>160</E200-C5>
+						<E200-C6-INDICADOR-S/>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N/>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7/>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>4.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿HA ESTADO INGRESADO EN ALGÚN HOSPITAL O HA SIDO INTERVENIDO?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado_check.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>ASTIGMATISMO- NO OPERADO, BRONQUITIS, OTROS SUPUESTOS</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>5.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿TIENE PREVISTA ALGUNA INTERVENCION QUIRURGICA?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado_check.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>EN LA PAZ</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>6.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿PADECE HA PADECIDO ALUNA ENFERMEDAD, SE ENCUENTRA BAJO TRATAMIENTO CONTROL MEDICO POR ALGUNA PATOLOGIA DIFERENTE DE LAS QUE SE MUESTRA EN ESTA LISTA?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado_check.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>BRONQUITIS[cr]AMIGDALITIS[cr]CATARRO[cr]INFECCION</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>7.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿HA ESTADO INGRESADO EN ALGÚN HOSPITAL O HA SIDO INTERVENIDO?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado_check.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>HOSPITAL LA PAZ</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>XX.W.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿prueba?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado_check.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>HOSPITAL LA PAZ</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+
+
+					<!-- LISTA DE PATOLOGIAS -->
+					<E200-C8>
+						<NOMBRES>ACNE SIN TRATAMIENTO</NOMBRES>
+						<NOMBRES>AMIGDALITIS AGUDA</NOMBRES>
+						<NOMBRES>APENDICITIS SIN SECUELAS</NOMBRES>
+						<NOMBRES>CEFALEAS, JAQUECAS Y MIGRAÑAS LEVES</NOMBRES>				
+						<NOMBRES>ANGINAS</NOMBRES>
+						<NOMBRES>APENDICITIS SIN SECUELAS</NOMBRES>
+						<NOMBRES>DERMATITIS</NOMBRES>
+						<NOMBRES>ANGINAS</NOMBRES>
+						<NOMBRES>APENDICITIS SIN SECUELAS</NOMBRES>
+						<NOMBRES>MIGRAÑAS</NOMBRES>
+						<NOMBRES>EXTREÑIMIENTO CRONICO</NOMBRES>
+						<NOMBRES>ULCERA ESTOMACAL</NOMBRES>
+						<NOMBRES>APENDICITIS SIN SECUELAS</NOMBRES>
+						<NOMBRES>CISTITIS</NOMBRES>
+						<NOMBRES>BRONQUITIS AGUDA </NOMBRES>
+						<NOMBRES>CHALAZON INTERVENIDA</NOMBRES>	
+					</E200-C8> 
+					<E200-C9>ES-PIE-200-C9-SISSOL.rtf</E200-C9>
+					<!-- TEXTO PIE -->
+				</EM200-C4>
+
+
+				<EM201-C4>
+					<!-- CUESTIONARIO LABORAL Nº4 -->
+					<E201-C1>44 444 444 A</E201-C1>
+					<!-- DOCUMENTO IDENTIDAD -->
+					<E201-C2>MARIA DE LA O -4</E201-C2>
+					<!-- NOMBRE Y APELLIDOS -->
+					<E201-C3>SALAMANCA, 14 2B</E201-C3>
+					<!-- DOMICILIO PARTICULAR -->
+					<E201-C4>LAS PALMAS</E201-C4>
+					<!-- LOCALIDAD -->
+					<E201-C5>35335</E201-C5>
+					<!-- CODIGO POSTAL -->
+					<E201-C6>LAS PALMAS GC</E201-C6>
+					<!-- PROVINCIA -->
+					<E201-C7>928 222 222</E201-C7>
+					<!-- TELEFONO -->
+					<CUESTIONARIO>
+						<E201-C8>1</E201-C8>
+						<!-- Nº PREGUNTAS -->
+						<E201-C9>¿TRABAJA EN SU DOMICILIO PARTICULAR?</E201-C9>
+						<!-- TEXTO PREGUNTA -->
+						<E201-C10>SI</E201-C10>
+						<!-- VALOR RESPUESTA -->
+						<E201-C11>OTRO[cr]NINGUNO</E201-C11>
+						<!-- DESCRIPCION RESPUESTA -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E201-C8>2</E201-C8>
+						<!-- Nº PREGUNTAS -->
+						<E201-C9>¿COTIZA A LA SEGURIDAD SOCIAL?</E201-C9>
+						<!-- TEXTO PREGUNTA -->
+						<E201-C10>SI</E201-C10>
+						<!-- VALOR RESPUESTA -->
+						<E201-C11>XXXX</E201-C11>
+						<!-- DESCRIPCION RESPUESTA -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E201-C8>3</E201-C8>
+						<!-- Nº PREGUNTAS -->
+						<E201-C9>¿COTIZA A LA SEGURIDAD SOCIAL?</E201-C9>
+						<!-- TEXTO PREGUNTA -->
+						<E201-C10>NO</E201-C10>
+						<!-- VALOR RESPUESTA -->
+						<E201-C11>CADA MES</E201-C11>
+						<!-- DESCRIPCION RESPUESTA -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E201-C8>4</E201-C8>
+						<!-- Nº PREGUNTAS -->
+						<E201-C9>¿TRABAJA EN SU DOMICILIO PARTICULAR?</E201-C9>
+						<!-- TEXTO PREGUNTA -->
+						<E201-C10>SI</E201-C10>
+						<!-- VALOR RESPUESTA -->
+						<E201-C11>OTRO[cr]NINGUNO</E201-C11>
+						<!-- DESCRIPCION RESPUESTA -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E201-C8>5</E201-C8>
+						<!-- Nº PREGUNTAS -->
+						<E201-C9>¿COTIZA A LA SEGURIDAD SOCIAL?</E201-C9>
+						<!-- TEXTO PREGUNTA -->
+						<E201-C10>SI</E201-C10>
+						<!-- VALOR RESPUESTA -->
+						<E201-C11>EN MIS RATOS LIBRES</E201-C11>
+						<!-- DESCRIPCION RESPUESTA -->
+					</CUESTIONARIO>
+					<E201-C12>ES-LOPD-FIRMA-182-C1-SISSOL.rtf</E201-C12>
+					<!-- TEXTO PIE LOPD -->
+					<E201-C13>ES-PIE-201-C13-SISSOL.rtf</E201-C13>
+					<!--TEXTO PIE  -->
+					<E201-C14>ES-LOPD-ITT-201-C14-SISSOL.rtf</E201-C14>
+					<!-- CLAUSULA LOPD ITT -->
+				</EM201-C4>
+
+
+				<!--************************************************************************************-->
+				<EM200-C5>
+					<!-- CUESTIONARIO DE SALUD Nº 5-->
+					<E200-C1>44 444 444 A</E200-C1>
+					<!-- DOCUMENTO IDENTIDAD -->
+					<E200-C2>JOSE ANDRES GARCIA -5</E200-C2>
+					<!-- NOMBRE Y APELLIDOS -->
+
+					<CUESTIONARIO>
+						<E200-C3>1.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿TIENE ALGUNA POLIZA SIMILAR A LAS COBERTURAS SOLICITADAS?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado_check.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>EN LA COMPAÑIA PEPITO[cr]EN OTRA COMPAÑÍA[cr]NO SÉ QUÉ[cr]NO SÉ CUÁNTOS</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>2.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>PESO (EN KGS.)</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5>60</E200-C5>
+						<E200-C6-INDICADOR-S/>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N/>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7/>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>3.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>ESTATURA (EN CMS.)</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5>160</E200-C5>
+						<E200-C6-INDICADOR-S/>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N/>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7/>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>4.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿HA ESTADO INGRESADO EN ALGÚN HOSPITAL O HA SIDO INTERVENIDO?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado_check.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>ASTIGMATISMO- NO OPERADO, BRONQUITIS, OTROS SUPUESTOS</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>5.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿TIENE PREVISTA ALGUNA INTERVENCION QUIRURGICA?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado_check.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>EN LA PAZ</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>6.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿PADECE HA PADECIDO ALUNA ENFERMEDAD, SE ENCUENTRA BAJO TRATAMIENTO CONTROL MEDICO POR ALGUNA PATOLOGIA DIFERENTE DE LAS QUE SE MUESTRA EN ESTA LISTA?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado_check.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>BRONQUITIS[cr]AMIGDALITIS[cr]CATARRO[cr]INFECCION</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>7.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿HA ESTADO INGRESADO EN ALGÚN HOSPITAL O HA SIDO INTERVENIDO?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado_check.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>HOSPITAL LA PAZ</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>XX.W.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿prueba?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado_check.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>HOSPITAL LA PAZ</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+
+
+					<!-- LISTA DE PATOLOGIAS -->
+					<E200-C8>
+						<NOMBRES>ACNE SIN TRATAMIENTO</NOMBRES>
+						<NOMBRES>AMIGDALITIS AGUDA</NOMBRES>
+						<NOMBRES>APENDICITIS SIN SECUELAS</NOMBRES>
+						<NOMBRES>CEFALEAS, JAQUECAS Y MIGRAÑAS LEVES</NOMBRES>				
+						<NOMBRES>ANGINAS</NOMBRES>
+						<NOMBRES>APENDICITIS SIN SECUELAS</NOMBRES>
+						<NOMBRES>DERMATITIS</NOMBRES>
+						<NOMBRES>ANGINAS</NOMBRES>
+						<NOMBRES>APENDICITIS SIN SECUELAS</NOMBRES>
+						<NOMBRES>MIGRAÑAS</NOMBRES>
+						<NOMBRES>EXTREÑIMIENTO CRONICO</NOMBRES>
+						<NOMBRES>ULCERA ESTOMACAL</NOMBRES>
+						<NOMBRES>APENDICITIS SIN SECUELAS</NOMBRES>
+						<NOMBRES>CISTITIS</NOMBRES>
+						<NOMBRES>BRONQUITIS AGUDA </NOMBRES>
+						<NOMBRES>CHALAZON INTERVENIDA</NOMBRES>	
+					</E200-C8> 
+					<E200-C9>ES-PIE-200-C9-SISSOL.rtf</E200-C9>
+					<!-- TEXTO PIE -->
+				</EM200-C5>
+
+
+				<EM201-C5>
+					<!-- CUESTIONARIO LABORAL Nº5 -->
+					<E201-C1>44 444 444 A</E201-C1>
+					<!-- DOCUMENTO IDENTIDAD -->
+					<E201-C2>MARIA DE LA O -5</E201-C2>
+					<!-- NOMBRE Y APELLIDOS -->
+					<E201-C3>SALAMANCA, 14 2B</E201-C3>
+					<!-- DOMICILIO PARTICULAR -->
+					<E201-C4>LAS PALMAS</E201-C4>
+					<!-- LOCALIDAD -->
+					<E201-C5>35335</E201-C5>
+					<!-- CODIGO POSTAL -->
+					<E201-C6>LAS PALMAS GC</E201-C6>
+					<!-- PROVINCIA -->
+					<E201-C7>928 222 222</E201-C7>
+					<!-- TELEFONO -->
+					<CUESTIONARIO>
+						<E201-C8>1</E201-C8>
+						<!-- Nº PREGUNTAS -->
+						<E201-C9>¿TRABAJA EN SU DOMICILIO PARTICULAR?</E201-C9>
+						<!-- TEXTO PREGUNTA -->
+						<E201-C10>SI</E201-C10>
+						<!-- VALOR RESPUESTA -->
+						<E201-C11>OTRO[cr]NINGUNO</E201-C11>
+						<!-- DESCRIPCION RESPUESTA -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E201-C8>2</E201-C8>
+						<!-- Nº PREGUNTAS -->
+						<E201-C9>¿COTIZA A LA SEGURIDAD SOCIAL?</E201-C9>
+						<!-- TEXTO PREGUNTA -->
+						<E201-C10>SI</E201-C10>
+						<!-- VALOR RESPUESTA -->
+						<E201-C11>XXXX</E201-C11>
+						<!-- DESCRIPCION RESPUESTA -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E201-C8>3</E201-C8>
+						<!-- Nº PREGUNTAS -->
+						<E201-C9>¿COTIZA A LA SEGURIDAD SOCIAL?</E201-C9>
+						<!-- TEXTO PREGUNTA -->
+						<E201-C10>NO</E201-C10>
+						<!-- VALOR RESPUESTA -->
+						<E201-C11>CADA MES</E201-C11>
+						<!-- DESCRIPCION RESPUESTA -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E201-C8>4</E201-C8>
+						<!-- Nº PREGUNTAS -->
+						<E201-C9>¿TRABAJA EN SU DOMICILIO PARTICULAR?</E201-C9>
+						<!-- TEXTO PREGUNTA -->
+						<E201-C10>SI</E201-C10>
+						<!-- VALOR RESPUESTA -->
+						<E201-C11>OTRO[cr]NINGUNO</E201-C11>
+						<!-- DESCRIPCION RESPUESTA -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E201-C8>5</E201-C8>
+						<!-- Nº PREGUNTAS -->
+						<E201-C9>¿COTIZA A LA SEGURIDAD SOCIAL?</E201-C9>
+						<!-- TEXTO PREGUNTA -->
+						<E201-C10>SI</E201-C10>
+						<!-- VALOR RESPUESTA -->
+						<E201-C11>EN MIS RATOS LIBRES</E201-C11>
+						<!-- DESCRIPCION RESPUESTA -->
+					</CUESTIONARIO>
+					<E201-C12>ES-LOPD-FIRMA-182-C1-SISSOL.rtf</E201-C12>
+					<!-- TEXTO PIE LOPD -->
+					<E201-C13>ES-PIE-201-C13-SISSOL.rtf</E201-C13>
+					<!--TEXTO PIE  -->
+					<E201-C14>ES-LOPD-ITT-201-C14-SISSOL.rtf</E201-C14>
+					<!-- CLAUSULA LOPD ITT -->
+				</EM201-C5>
+
+
+				<!--************************************************************************************-->
+				<EM200-C6>
+					<!-- CUESTIONARIO DE SALUD Nº 6-->
+					<E200-C1>44 444 444 A</E200-C1>
+					<!-- DOCUMENTO IDENTIDAD -->
+					<E200-C2>JOSE ANDRES GARCIA -6</E200-C2>
+					<!-- NOMBRE Y APELLIDOS -->
+
+					<CUESTIONARIO>
+						<E200-C3>1.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿TIENE ALGUNA POLIZA SIMILAR A LAS COBERTURAS SOLICITADAS?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado_check.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>EN LA COMPAÑIA PEPITO[cr]EN OTRA COMPAÑÍA[cr]NO SÉ QUÉ[cr]NO SÉ CUÁNTOS</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>2.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>PESO (EN KGS.)</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5>60</E200-C5>
+						<E200-C6-INDICADOR-S/>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N/>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7/>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>3.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>ESTATURA (EN CMS.)</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5>160</E200-C5>
+						<E200-C6-INDICADOR-S/>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N/>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7/>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>4.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿HA ESTADO INGRESADO EN ALGÚN HOSPITAL O HA SIDO INTERVENIDO?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado_check.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>ASTIGMATISMO- NO OPERADO, BRONQUITIS, OTROS SUPUESTOS</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>5.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿TIENE PREVISTA ALGUNA INTERVENCION QUIRURGICA?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado_check.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>EN LA PAZ</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>6.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿PADECE HA PADECIDO ALUNA ENFERMEDAD, SE ENCUENTRA BAJO TRATAMIENTO CONTROL MEDICO POR ALGUNA PATOLOGIA DIFERENTE DE LAS QUE SE MUESTRA EN ESTA LISTA?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado_check.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>BRONQUITIS[cr]AMIGDALITIS[cr]CATARRO[cr]INFECCION</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>7.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿HA ESTADO INGRESADO EN ALGÚN HOSPITAL O HA SIDO INTERVENIDO?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado_check.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>HOSPITAL LA PAZ</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>XX.W.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿prueba?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado_check.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>HOSPITAL LA PAZ</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+
+
+					<!-- LISTA DE PATOLOGIAS -->
+					<E200-C8>
+						<NOMBRES>ACNE SIN TRATAMIENTO</NOMBRES>
+						<NOMBRES>AMIGDALITIS AGUDA</NOMBRES>
+						<NOMBRES>APENDICITIS SIN SECUELAS</NOMBRES>
+						<NOMBRES>CEFALEAS, JAQUECAS Y MIGRAÑAS LEVES</NOMBRES>				
+						<NOMBRES>ANGINAS</NOMBRES>
+						<NOMBRES>APENDICITIS SIN SECUELAS</NOMBRES>
+						<NOMBRES>DERMATITIS</NOMBRES>
+						<NOMBRES>ANGINAS</NOMBRES>
+						<NOMBRES>APENDICITIS SIN SECUELAS</NOMBRES>
+						<NOMBRES>MIGRAÑAS</NOMBRES>
+						<NOMBRES>EXTREÑIMIENTO CRONICO</NOMBRES>
+						<NOMBRES>ULCERA ESTOMACAL</NOMBRES>
+						<NOMBRES>APENDICITIS SIN SECUELAS</NOMBRES>
+						<NOMBRES>CISTITIS</NOMBRES>
+						<NOMBRES>BRONQUITIS AGUDA </NOMBRES>
+						<NOMBRES>CHALAZON INTERVENIDA</NOMBRES>	
+					</E200-C8> 
+					<E200-C9>ES-PIE-200-C9-SISSOL.rtf</E200-C9>
+					<!-- TEXTO PIE -->
+				</EM200-C6>
+
+
+				<EM201-C6>
+					<!-- CUESTIONARIO LABORAL Nº6 -->
+					<E201-C1>44 444 444 A</E201-C1>
+					<!-- DOCUMENTO IDENTIDAD -->
+					<E201-C2>MARIA DE LA O -6</E201-C2>
+					<!-- NOMBRE Y APELLIDOS -->
+					<E201-C3>SALAMANCA, 14 2B</E201-C3>
+					<!-- DOMICILIO PARTICULAR -->
+					<E201-C4>LAS PALMAS</E201-C4>
+					<!-- LOCALIDAD -->
+					<E201-C5>35335</E201-C5>
+					<!-- CODIGO POSTAL -->
+					<E201-C6>LAS PALMAS GC</E201-C6>
+					<!-- PROVINCIA -->
+					<E201-C7>928 222 222</E201-C7>
+					<!-- TELEFONO -->
+					<CUESTIONARIO>
+						<E201-C8>1</E201-C8>
+						<!-- Nº PREGUNTAS -->
+						<E201-C9>¿TRABAJA EN SU DOMICILIO PARTICULAR?</E201-C9>
+						<!-- TEXTO PREGUNTA -->
+						<E201-C10>SI</E201-C10>
+						<!-- VALOR RESPUESTA -->
+						<E201-C11>OTRO[cr]NINGUNO</E201-C11>
+						<!-- DESCRIPCION RESPUESTA -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E201-C8>2</E201-C8>
+						<!-- Nº PREGUNTAS -->
+						<E201-C9>¿COTIZA A LA SEGURIDAD SOCIAL?</E201-C9>
+						<!-- TEXTO PREGUNTA -->
+						<E201-C10>SI</E201-C10>
+						<!-- VALOR RESPUESTA -->
+						<E201-C11>XXXX</E201-C11>
+						<!-- DESCRIPCION RESPUESTA -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E201-C8>3</E201-C8>
+						<!-- Nº PREGUNTAS -->
+						<E201-C9>¿COTIZA A LA SEGURIDAD SOCIAL?</E201-C9>
+						<!-- TEXTO PREGUNTA -->
+						<E201-C10>NO</E201-C10>
+						<!-- VALOR RESPUESTA -->
+						<E201-C11>CADA MES</E201-C11>
+						<!-- DESCRIPCION RESPUESTA -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E201-C8>4</E201-C8>
+						<!-- Nº PREGUNTAS -->
+						<E201-C9>¿TRABAJA EN SU DOMICILIO PARTICULAR?</E201-C9>
+						<!-- TEXTO PREGUNTA -->
+						<E201-C10>SI</E201-C10>
+						<!-- VALOR RESPUESTA -->
+						<E201-C11>OTRO[cr]NINGUNO</E201-C11>
+						<!-- DESCRIPCION RESPUESTA -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E201-C8>5</E201-C8>
+						<!-- Nº PREGUNTAS -->
+						<E201-C9>¿COTIZA A LA SEGURIDAD SOCIAL?</E201-C9>
+						<!-- TEXTO PREGUNTA -->
+						<E201-C10>SI</E201-C10>
+						<!-- VALOR RESPUESTA -->
+						<E201-C11>EN MIS RATOS LIBRES</E201-C11>
+						<!-- DESCRIPCION RESPUESTA -->
+					</CUESTIONARIO>
+					<E201-C12>ES-LOPD-FIRMA-182-C1-SISSOL.rtf</E201-C12>
+					<!-- TEXTO PIE LOPD -->
+					<E201-C13>ES-PIE-201-C13-SISSOL.rtf</E201-C13>
+					<!--TEXTO PIE  -->
+					<E201-C14>ES-LOPD-ITT-201-C14-SISSOL.rtf</E201-C14>
+					<!-- CLAUSULA LOPD ITT -->
+				</EM201-C6>
+
+
+				<!--************************************************************************************-->
+				<EM200-C7>
+					<!-- CUESTIONARIO DE SALUD Nº 7-->
+					<E200-C1>44 444 444 A</E200-C1>
+					<!-- DOCUMENTO IDENTIDAD -->
+					<E200-C2>JOSE ANDRES GARCIA -7</E200-C2>
+					<!-- NOMBRE Y APELLIDOS -->
+
+					<CUESTIONARIO>
+						<E200-C3>1.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿TIENE ALGUNA POLIZA SIMILAR A LAS COBERTURAS SOLICITADAS?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado_check.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>EN LA COMPAÑIA PEPITO[cr]EN OTRA COMPAÑÍA[cr]NO SÉ QUÉ[cr]NO SÉ CUÁNTOS</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>2.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>PESO (EN KGS.)</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5>60</E200-C5>
+						<E200-C6-INDICADOR-S/>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N/>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7/>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>3.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>ESTATURA (EN CMS.)</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5>160</E200-C5>
+						<E200-C6-INDICADOR-S/>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N/>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7/>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>4.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿HA ESTADO INGRESADO EN ALGÚN HOSPITAL O HA SIDO INTERVENIDO?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado_check.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>ASTIGMATISMO- NO OPERADO, BRONQUITIS, OTROS SUPUESTOS</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>5.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿TIENE PREVISTA ALGUNA INTERVENCION QUIRURGICA?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado_check.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>EN LA PAZ</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>6.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿PADECE HA PADECIDO ALUNA ENFERMEDAD, SE ENCUENTRA BAJO TRATAMIENTO CONTROL MEDICO POR ALGUNA PATOLOGIA DIFERENTE DE LAS QUE SE MUESTRA EN ESTA LISTA?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado_check.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>BRONQUITIS[cr]AMIGDALITIS[cr]CATARRO[cr]INFECCION</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>7.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿HA ESTADO INGRESADO EN ALGÚN HOSPITAL O HA SIDO INTERVENIDO?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado_check.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>HOSPITAL LA PAZ</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>XX.W.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿prueba?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado_check.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>HOSPITAL LA PAZ</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+
+
+					<!-- LISTA DE PATOLOGIAS -->
+					<E200-C8>
+						<NOMBRES>ACNE SIN TRATAMIENTO</NOMBRES>
+						<NOMBRES>AMIGDALITIS AGUDA</NOMBRES>
+						<NOMBRES>APENDICITIS SIN SECUELAS</NOMBRES>
+						<NOMBRES>CEFALEAS, JAQUECAS Y MIGRAÑAS LEVES</NOMBRES>				
+						<NOMBRES>ANGINAS</NOMBRES>
+						<NOMBRES>APENDICITIS SIN SECUELAS</NOMBRES>
+						<NOMBRES>DERMATITIS</NOMBRES>
+						<NOMBRES>ANGINAS</NOMBRES>
+						<NOMBRES>APENDICITIS SIN SECUELAS</NOMBRES>
+						<NOMBRES>MIGRAÑAS</NOMBRES>
+						<NOMBRES>EXTREÑIMIENTO CRONICO</NOMBRES>
+						<NOMBRES>ULCERA ESTOMACAL</NOMBRES>
+						<NOMBRES>APENDICITIS SIN SECUELAS</NOMBRES>
+						<NOMBRES>CISTITIS</NOMBRES>
+						<NOMBRES>BRONQUITIS AGUDA </NOMBRES>
+						<NOMBRES>CHALAZON INTERVENIDA</NOMBRES>	
+					</E200-C8> 
+					<E200-C9>ES-PIE-200-C9-SISSOL.rtf</E200-C9>
+					<!-- TEXTO PIE -->
+				</EM200-C7>
+
+
+				<EM201-C7>
+					<!-- CUESTIONARIO LABORAL Nº7 -->
+					<E201-C1>44 444 444 A</E201-C1>
+					<!-- DOCUMENTO IDENTIDAD -->
+					<E201-C2>MARIA DE LA O -7</E201-C2>
+					<!-- NOMBRE Y APELLIDOS -->
+					<E201-C3>SALAMANCA, 14 2B</E201-C3>
+					<!-- DOMICILIO PARTICULAR -->
+					<E201-C4>LAS PALMAS</E201-C4>
+					<!-- LOCALIDAD -->
+					<E201-C5>35335</E201-C5>
+					<!-- CODIGO POSTAL -->
+					<E201-C6>LAS PALMAS GC</E201-C6>
+					<!-- PROVINCIA -->
+					<E201-C7>928 222 222</E201-C7>
+					<!-- TELEFONO -->
+					<CUESTIONARIO>
+						<E201-C8>1</E201-C8>
+						<!-- Nº PREGUNTAS -->
+						<E201-C9>¿TRABAJA EN SU DOMICILIO PARTICULAR?</E201-C9>
+						<!-- TEXTO PREGUNTA -->
+						<E201-C10>SI</E201-C10>
+						<!-- VALOR RESPUESTA -->
+						<E201-C11>OTRO[cr]NINGUNO</E201-C11>
+						<!-- DESCRIPCION RESPUESTA -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E201-C8>2</E201-C8>
+						<!-- Nº PREGUNTAS -->
+						<E201-C9>¿COTIZA A LA SEGURIDAD SOCIAL?</E201-C9>
+						<!-- TEXTO PREGUNTA -->
+						<E201-C10>SI</E201-C10>
+						<!-- VALOR RESPUESTA -->
+						<E201-C11>XXXX</E201-C11>
+						<!-- DESCRIPCION RESPUESTA -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E201-C8>3</E201-C8>
+						<!-- Nº PREGUNTAS -->
+						<E201-C9>¿COTIZA A LA SEGURIDAD SOCIAL?</E201-C9>
+						<!-- TEXTO PREGUNTA -->
+						<E201-C10>NO</E201-C10>
+						<!-- VALOR RESPUESTA -->
+						<E201-C11>CADA MES</E201-C11>
+						<!-- DESCRIPCION RESPUESTA -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E201-C8>4</E201-C8>
+						<!-- Nº PREGUNTAS -->
+						<E201-C9>¿TRABAJA EN SU DOMICILIO PARTICULAR?</E201-C9>
+						<!-- TEXTO PREGUNTA -->
+						<E201-C10>SI</E201-C10>
+						<!-- VALOR RESPUESTA -->
+						<E201-C11>OTRO[cr]NINGUNO</E201-C11>
+						<!-- DESCRIPCION RESPUESTA -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E201-C8>5</E201-C8>
+						<!-- Nº PREGUNTAS -->
+						<E201-C9>¿COTIZA A LA SEGURIDAD SOCIAL?</E201-C9>
+						<!-- TEXTO PREGUNTA -->
+						<E201-C10>SI</E201-C10>
+						<!-- VALOR RESPUESTA -->
+						<E201-C11>EN MIS RATOS LIBRES</E201-C11>
+						<!-- DESCRIPCION RESPUESTA -->
+					</CUESTIONARIO>
+					<E201-C12>ES-LOPD-FIRMA-182-C1-SISSOL.rtf</E201-C12>
+					<!-- TEXTO PIE LOPD -->
+					<E201-C13>ES-PIE-201-C13-SISSOL.rtf</E201-C13>
+					<!--TEXTO PIE  -->
+					<E201-C14>ES-LOPD-ITT-201-C14-SISSOL.rtf</E201-C14>
+					<!-- CLAUSULA LOPD ITT -->
+				</EM201-C7>
+
+
+				<!--************************************************************************************-->
+				<EM200-C8>
+					<!-- CUESTIONARIO DE SALUD Nº 8-->
+					<E200-C1>44 444 444 A</E200-C1>
+					<!-- DOCUMENTO IDENTIDAD -->
+					<E200-C2>JOSE ANDRES GARCIA -8</E200-C2>
+					<!-- NOMBRE Y APELLIDOS -->
+
+					<CUESTIONARIO>
+						<E200-C3>1.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿TIENE ALGUNA POLIZA SIMILAR A LAS COBERTURAS SOLICITADAS?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado_check.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>EN LA COMPAÑIA PEPITO[cr]EN OTRA COMPAÑÍA[cr]NO SÉ QUÉ[cr]NO SÉ CUÁNTOS</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>2.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>PESO (EN KGS.)</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5>60</E200-C5>
+						<E200-C6-INDICADOR-S/>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N/>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7/>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>3.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>ESTATURA (EN CMS.)</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5>160</E200-C5>
+						<E200-C6-INDICADOR-S/>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N/>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7/>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>4.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿HA ESTADO INGRESADO EN ALGÚN HOSPITAL O HA SIDO INTERVENIDO?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado_check.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>ASTIGMATISMO- NO OPERADO, BRONQUITIS, OTROS SUPUESTOS</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>5.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿TIENE PREVISTA ALGUNA INTERVENCION QUIRURGICA?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado_check.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>EN LA PAZ</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>6.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿PADECE HA PADECIDO ALUNA ENFERMEDAD, SE ENCUENTRA BAJO TRATAMIENTO CONTROL MEDICO POR ALGUNA PATOLOGIA DIFERENTE DE LAS QUE SE MUESTRA EN ESTA LISTA?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado_check.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>BRONQUITIS[cr]AMIGDALITIS[cr]CATARRO[cr]INFECCION</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>7.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿HA ESTADO INGRESADO EN ALGÚN HOSPITAL O HA SIDO INTERVENIDO?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado_check.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>HOSPITAL LA PAZ</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>XX.W.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿prueba?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado_check.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>HOSPITAL LA PAZ</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+
+
+					<!-- LISTA DE PATOLOGIAS -->
+					<E200-C8>
+						<NOMBRES>ACNE SIN TRATAMIENTO</NOMBRES>
+						<NOMBRES>AMIGDALITIS AGUDA</NOMBRES>
+						<NOMBRES>APENDICITIS SIN SECUELAS</NOMBRES>
+						<NOMBRES>CEFALEAS, JAQUECAS Y MIGRAÑAS LEVES</NOMBRES>				
+						<NOMBRES>ANGINAS</NOMBRES>
+						<NOMBRES>APENDICITIS SIN SECUELAS</NOMBRES>
+						<NOMBRES>DERMATITIS</NOMBRES>
+						<NOMBRES>ANGINAS</NOMBRES>
+						<NOMBRES>APENDICITIS SIN SECUELAS</NOMBRES>
+						<NOMBRES>MIGRAÑAS</NOMBRES>
+						<NOMBRES>EXTREÑIMIENTO CRONICO</NOMBRES>
+						<NOMBRES>ULCERA ESTOMACAL</NOMBRES>
+						<NOMBRES>APENDICITIS SIN SECUELAS</NOMBRES>
+						<NOMBRES>CISTITIS</NOMBRES>
+						<NOMBRES>BRONQUITIS AGUDA </NOMBRES>
+						<NOMBRES>CHALAZON INTERVENIDA</NOMBRES>	
+					</E200-C8> 
+					<E200-C9>ES-PIE-200-C9-SISSOL.rtf</E200-C9>
+					<!-- TEXTO PIE -->
+				</EM200-C8>
+
+
+				<EM201-C8>
+					<!-- CUESTIONARIO LABORAL Nº8 -->
+					<E201-C1>44 444 444 A</E201-C1>
+					<!-- DOCUMENTO IDENTIDAD -->
+					<E201-C2>MARIA DE LA O -8</E201-C2>
+					<!-- NOMBRE Y APELLIDOS -->
+					<E201-C3>SALAMANCA, 14 2B</E201-C3>
+					<!-- DOMICILIO PARTICULAR -->
+					<E201-C4>LAS PALMAS</E201-C4>
+					<!-- LOCALIDAD -->
+					<E201-C5>35335</E201-C5>
+					<!-- CODIGO POSTAL -->
+					<E201-C6>LAS PALMAS GC</E201-C6>
+					<!-- PROVINCIA -->
+					<E201-C7>928 222 222</E201-C7>
+					<!-- TELEFONO -->
+					<CUESTIONARIO>
+						<E201-C8>1</E201-C8>
+						<!-- Nº PREGUNTAS -->
+						<E201-C9>¿TRABAJA EN SU DOMICILIO PARTICULAR?</E201-C9>
+						<!-- TEXTO PREGUNTA -->
+						<E201-C10>SI</E201-C10>
+						<!-- VALOR RESPUESTA -->
+						<E201-C11>OTRO[cr]NINGUNO</E201-C11>
+						<!-- DESCRIPCION RESPUESTA -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E201-C8>2</E201-C8>
+						<!-- Nº PREGUNTAS -->
+						<E201-C9>¿COTIZA A LA SEGURIDAD SOCIAL?</E201-C9>
+						<!-- TEXTO PREGUNTA -->
+						<E201-C10>SI</E201-C10>
+						<!-- VALOR RESPUESTA -->
+						<E201-C11>XXXX</E201-C11>
+						<!-- DESCRIPCION RESPUESTA -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E201-C8>3</E201-C8>
+						<!-- Nº PREGUNTAS -->
+						<E201-C9>¿COTIZA A LA SEGURIDAD SOCIAL?</E201-C9>
+						<!-- TEXTO PREGUNTA -->
+						<E201-C10>NO</E201-C10>
+						<!-- VALOR RESPUESTA -->
+						<E201-C11>CADA MES</E201-C11>
+						<!-- DESCRIPCION RESPUESTA -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E201-C8>4</E201-C8>
+						<!-- Nº PREGUNTAS -->
+						<E201-C9>¿TRABAJA EN SU DOMICILIO PARTICULAR?</E201-C9>
+						<!-- TEXTO PREGUNTA -->
+						<E201-C10>SI</E201-C10>
+						<!-- VALOR RESPUESTA -->
+						<E201-C11>OTRO[cr]NINGUNO</E201-C11>
+						<!-- DESCRIPCION RESPUESTA -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E201-C8>5</E201-C8>
+						<!-- Nº PREGUNTAS -->
+						<E201-C9>¿COTIZA A LA SEGURIDAD SOCIAL?</E201-C9>
+						<!-- TEXTO PREGUNTA -->
+						<E201-C10>SI</E201-C10>
+						<!-- VALOR RESPUESTA -->
+						<E201-C11>EN MIS RATOS LIBRES</E201-C11>
+						<!-- DESCRIPCION RESPUESTA -->
+					</CUESTIONARIO>
+					<E201-C12>ES-LOPD-FIRMA-182-C1-SISSOL.rtf</E201-C12>
+					<!-- TEXTO PIE LOPD -->
+					<E201-C13>ES-PIE-201-C13-SISSOL.rtf</E201-C13>
+					<!--TEXTO PIE  -->
+					<E201-C14>ES-LOPD-ITT-201-C14-SISSOL.rtf</E201-C14>
+					<!-- CLAUSULA LOPD ITT -->
+				</EM201-C8>
+
+
+				<!--************************************************************************************-->
+				<EM200-C9>
+					<!-- CUESTIONARIO DE SALUD Nº 9-->
+					<E200-C1>44 444 444 A</E200-C1>
+					<!-- DOCUMENTO IDENTIDAD -->
+					<E200-C2>JOSE ANDRES GARCIA -9</E200-C2>
+					<!-- NOMBRE Y APELLIDOS -->
+
+					<CUESTIONARIO>
+						<E200-C3>1.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿TIENE ALGUNA POLIZA SIMILAR A LAS COBERTURAS SOLICITADAS?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado_check.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>EN LA COMPAÑIA PEPITO[cr]EN OTRA COMPAÑÍA[cr]NO SÉ QUÉ[cr]NO SÉ CUÁNTOS</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>2.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>PESO (EN KGS.)</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5>60</E200-C5>
+						<E200-C6-INDICADOR-S/>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N/>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7/>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>3.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>ESTATURA (EN CMS.)</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5>160</E200-C5>
+						<E200-C6-INDICADOR-S/>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N/>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7/>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>4.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿HA ESTADO INGRESADO EN ALGÚN HOSPITAL O HA SIDO INTERVENIDO?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado_check.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>ASTIGMATISMO- NO OPERADO, BRONQUITIS, OTROS SUPUESTOS</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>5.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿TIENE PREVISTA ALGUNA INTERVENCION QUIRURGICA?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado_check.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>EN LA PAZ</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>6.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿PADECE HA PADECIDO ALUNA ENFERMEDAD, SE ENCUENTRA BAJO TRATAMIENTO CONTROL MEDICO POR ALGUNA PATOLOGIA DIFERENTE DE LAS QUE SE MUESTRA EN ESTA LISTA?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado_check.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>BRONQUITIS[cr]AMIGDALITIS[cr]CATARRO[cr]INFECCION</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>7.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿HA ESTADO INGRESADO EN ALGÚN HOSPITAL O HA SIDO INTERVENIDO?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado_check.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>HOSPITAL LA PAZ</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>XX.W.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿prueba?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado_check.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>HOSPITAL LA PAZ</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+
+
+					<!-- LISTA DE PATOLOGIAS -->
+					<E200-C8>
+						<NOMBRES>ACNE SIN TRATAMIENTO</NOMBRES>
+						<NOMBRES>AMIGDALITIS AGUDA</NOMBRES>
+						<NOMBRES>APENDICITIS SIN SECUELAS</NOMBRES>
+						<NOMBRES>CEFALEAS, JAQUECAS Y MIGRAÑAS LEVES</NOMBRES>				
+						<NOMBRES>ANGINAS</NOMBRES>
+						<NOMBRES>APENDICITIS SIN SECUELAS</NOMBRES>
+						<NOMBRES>DERMATITIS</NOMBRES>
+						<NOMBRES>ANGINAS</NOMBRES>
+						<NOMBRES>APENDICITIS SIN SECUELAS</NOMBRES>
+						<NOMBRES>MIGRAÑAS</NOMBRES>
+						<NOMBRES>EXTREÑIMIENTO CRONICO</NOMBRES>
+						<NOMBRES>ULCERA ESTOMACAL</NOMBRES>
+						<NOMBRES>APENDICITIS SIN SECUELAS</NOMBRES>
+						<NOMBRES>CISTITIS</NOMBRES>
+						<NOMBRES>BRONQUITIS AGUDA </NOMBRES>
+						<NOMBRES>CHALAZON INTERVENIDA</NOMBRES>	
+					</E200-C8> 
+					<E200-C9>ES-PIE-200-C9-SISSOL.rtf</E200-C9>
+					<!-- TEXTO PIE -->
+				</EM200-C9>
+
+
+				<EM201-C9>
+					<!-- CUESTIONARIO LABORAL Nº9 -->
+					<E201-C1>44 444 444 A</E201-C1>
+					<!-- DOCUMENTO IDENTIDAD -->
+					<E201-C2>MARIA DE LA O -9</E201-C2>
+					<!-- NOMBRE Y APELLIDOS -->
+					<E201-C3>SALAMANCA, 14 2B</E201-C3>
+					<!-- DOMICILIO PARTICULAR -->
+					<E201-C4>LAS PALMAS</E201-C4>
+					<!-- LOCALIDAD -->
+					<E201-C5>35335</E201-C5>
+					<!-- CODIGO POSTAL -->
+					<E201-C6>LAS PALMAS GC</E201-C6>
+					<!-- PROVINCIA -->
+					<E201-C7>928 222 222</E201-C7>
+					<!-- TELEFONO -->
+					<CUESTIONARIO>
+						<E201-C8>1</E201-C8>
+						<!-- Nº PREGUNTAS -->
+						<E201-C9>¿TRABAJA EN SU DOMICILIO PARTICULAR?</E201-C9>
+						<!-- TEXTO PREGUNTA -->
+						<E201-C10>SI</E201-C10>
+						<!-- VALOR RESPUESTA -->
+						<E201-C11>OTRO[cr]NINGUNO</E201-C11>
+						<!-- DESCRIPCION RESPUESTA -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E201-C8>2</E201-C8>
+						<!-- Nº PREGUNTAS -->
+						<E201-C9>¿COTIZA A LA SEGURIDAD SOCIAL?</E201-C9>
+						<!-- TEXTO PREGUNTA -->
+						<E201-C10>SI</E201-C10>
+						<!-- VALOR RESPUESTA -->
+						<E201-C11>XXXX</E201-C11>
+						<!-- DESCRIPCION RESPUESTA -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E201-C8>3</E201-C8>
+						<!-- Nº PREGUNTAS -->
+						<E201-C9>¿COTIZA A LA SEGURIDAD SOCIAL?</E201-C9>
+						<!-- TEXTO PREGUNTA -->
+						<E201-C10>NO</E201-C10>
+						<!-- VALOR RESPUESTA -->
+						<E201-C11>CADA MES</E201-C11>
+						<!-- DESCRIPCION RESPUESTA -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E201-C8>4</E201-C8>
+						<!-- Nº PREGUNTAS -->
+						<E201-C9>¿TRABAJA EN SU DOMICILIO PARTICULAR?</E201-C9>
+						<!-- TEXTO PREGUNTA -->
+						<E201-C10>SI</E201-C10>
+						<!-- VALOR RESPUESTA -->
+						<E201-C11>OTRO[cr]NINGUNO</E201-C11>
+						<!-- DESCRIPCION RESPUESTA -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E201-C8>5</E201-C8>
+						<!-- Nº PREGUNTAS -->
+						<E201-C9>¿COTIZA A LA SEGURIDAD SOCIAL?</E201-C9>
+						<!-- TEXTO PREGUNTA -->
+						<E201-C10>SI</E201-C10>
+						<!-- VALOR RESPUESTA -->
+						<E201-C11>EN MIS RATOS LIBRES</E201-C11>
+						<!-- DESCRIPCION RESPUESTA -->
+					</CUESTIONARIO>
+					<E201-C12>ES-LOPD-FIRMA-182-C1-SISSOL.rtf</E201-C12>
+					<!-- TEXTO PIE LOPD -->
+					<E201-C13>ES-PIE-201-C13-SISSOL.rtf</E201-C13>
+					<!--TEXTO PIE  -->
+					<E201-C14>ES-LOPD-ITT-201-C14-SISSOL.rtf</E201-C14>
+					<!-- CLAUSULA LOPD ITT -->
+				</EM201-C9>
+
+
+				<!--************************************************************************************-->
+				<EM200-C10>
+					<!-- CUESTIONARIO DE SALUD Nº 10 -->
+					<E200-C1>44 444 444 A</E200-C1>
+					<!-- DOCUMENTO IDENTIDAD -->
+					<E200-C2>JOSE ANDRES GARCIA -10</E200-C2>
+					<!-- NOMBRE Y APELLIDOS -->
+
+					<CUESTIONARIO>
+						<E200-C3>1.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿TIENE ALGUNA POLIZA SIMILAR A LAS COBERTURAS SOLICITADAS?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado_check.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>EN LA COMPAÑIA PEPITO[cr]EN OTRA COMPAÑÍA[cr]NO SÉ QUÉ[cr]NO SÉ CUÁNTOS</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>2.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>PESO (EN KGS.)</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5>60</E200-C5>
+						<E200-C6-INDICADOR-S/>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N/>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7/>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>3.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>ESTATURA (EN CMS.)</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5>160</E200-C5>
+						<E200-C6-INDICADOR-S/>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N/>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7/>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>4.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿HA ESTADO INGRESADO EN ALGÚN HOSPITAL O HA SIDO INTERVENIDO?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado_check.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>ASTIGMATISMO- NO OPERADO, BRONQUITIS, OTROS SUPUESTOS</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>5.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿TIENE PREVISTA ALGUNA INTERVENCION QUIRURGICA?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado_check.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>EN LA PAZ</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>6.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿PADECE HA PADECIDO ALUNA ENFERMEDAD, SE ENCUENTRA BAJO TRATAMIENTO CONTROL MEDICO POR ALGUNA PATOLOGIA DIFERENTE DE LAS QUE SE MUESTRA EN ESTA LISTA?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado_check.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>BRONQUITIS[cr]AMIGDALITIS[cr]CATARRO[cr]INFECCION</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>7.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿HA ESTADO INGRESADO EN ALGÚN HOSPITAL O HA SIDO INTERVENIDO?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado_check.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>HOSPITAL LA PAZ</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E200-C3>XX.W.</E200-C3>
+						<!-- Nº PREGUNTAS indice -->
+						<E200-C4>¿prueba?</E200-C4>
+						<!-- TEXTO PREGUNTA -->
+						<E200-C5/>
+						<E200-C6-INDICADOR-S>cuadrado_check.jpg</E200-C6-INDICADOR-S>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C6-INDICADOR-N>cuadrado.jpg</E200-C6-INDICADOR-N>
+						<!-- INDICADOR RESPUESTA chek SI o NO -->
+						<E200-C7>HOSPITAL LA PAZ</E200-C7>
+						<!-- DESCRIPCION DE RESPUESTA , respuesta larga -->
+					</CUESTIONARIO>
+
+
+					<!-- LISTA DE PATOLOGIAS -->
+					<E200-C8>
+						<NOMBRES>ACNE SIN TRATAMIENTO</NOMBRES>
+						<NOMBRES>AMIGDALITIS AGUDA</NOMBRES>
+						<NOMBRES>APENDICITIS SIN SECUELAS</NOMBRES>
+						<NOMBRES>CEFALEAS, JAQUECAS Y MIGRAÑAS LEVES</NOMBRES>				
+						<NOMBRES>ANGINAS</NOMBRES>
+						<NOMBRES>APENDICITIS SIN SECUELAS</NOMBRES>
+						<NOMBRES>DERMATITIS</NOMBRES>
+						<NOMBRES>ANGINAS</NOMBRES>
+						<NOMBRES>APENDICITIS SIN SECUELAS</NOMBRES>
+						<NOMBRES>MIGRAÑAS</NOMBRES>
+						<NOMBRES>EXTREÑIMIENTO CRONICO</NOMBRES>
+						<NOMBRES>ULCERA ESTOMACAL</NOMBRES>
+						<NOMBRES>APENDICITIS SIN SECUELAS</NOMBRES>
+						<NOMBRES>CISTITIS</NOMBRES>
+						<NOMBRES>BRONQUITIS AGUDA </NOMBRES>
+						<NOMBRES>CHALAZON INTERVENIDA</NOMBRES>	
+					</E200-C8> 
+					<E200-C9>ES-PIE-200-C9-SISSOL.rtf</E200-C9>
+					<!-- TEXTO PIE -->
+				</EM200-C10>
+
+
+				<EM201-C10>
+					<!-- CUESTIONARIO LABORAL Nº10 -->
+					<E201-C1>44 444 444 A</E201-C1>
+					<!-- DOCUMENTO IDENTIDAD -->
+					<E201-C2>MARIA DE LA O -10</E201-C2>
+					<!-- NOMBRE Y APELLIDOS -->
+					<E201-C3>SALAMANCA, 14 2B</E201-C3>
+					<!-- DOMICILIO PARTICULAR -->
+					<E201-C4>LAS PALMAS</E201-C4>
+					<!-- LOCALIDAD -->
+					<E201-C5>35335</E201-C5>
+					<!-- CODIGO POSTAL -->
+					<E201-C6>LAS PALMAS GC</E201-C6>
+					<!-- PROVINCIA -->
+					<E201-C7>928 222 222</E201-C7>
+					<!-- TELEFONO -->
+					<CUESTIONARIO>
+						<E201-C8>1</E201-C8>
+						<!-- Nº PREGUNTAS -->
+						<E201-C9>¿TRABAJA EN SU DOMICILIO PARTICULAR?</E201-C9>
+						<!-- TEXTO PREGUNTA -->
+						<E201-C10>SI</E201-C10>
+						<!-- VALOR RESPUESTA -->
+						<E201-C11>OTRO[cr]NINGUNO</E201-C11>
+						<!-- DESCRIPCION RESPUESTA -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E201-C8>2</E201-C8>
+						<!-- Nº PREGUNTAS -->
+						<E201-C9>¿COTIZA A LA SEGURIDAD SOCIAL?</E201-C9>
+						<!-- TEXTO PREGUNTA -->
+						<E201-C10>SI</E201-C10>
+						<!-- VALOR RESPUESTA -->
+						<E201-C11>XXXX</E201-C11>
+						<!-- DESCRIPCION RESPUESTA -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E201-C8>3</E201-C8>
+						<!-- Nº PREGUNTAS -->
+						<E201-C9>¿COTIZA A LA SEGURIDAD SOCIAL?</E201-C9>
+						<!-- TEXTO PREGUNTA -->
+						<E201-C10>NO</E201-C10>
+						<!-- VALOR RESPUESTA -->
+						<E201-C11>CADA MES</E201-C11>
+						<!-- DESCRIPCION RESPUESTA -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E201-C8>4</E201-C8>
+						<!-- Nº PREGUNTAS -->
+						<E201-C9>¿TRABAJA EN SU DOMICILIO PARTICULAR?</E201-C9>
+						<!-- TEXTO PREGUNTA -->
+						<E201-C10>SI</E201-C10>
+						<!-- VALOR RESPUESTA -->
+						<E201-C11>OTRO[cr]NINGUNO</E201-C11>
+						<!-- DESCRIPCION RESPUESTA -->
+					</CUESTIONARIO>
+					<CUESTIONARIO>
+						<E201-C8>5</E201-C8>
+						<!-- Nº PREGUNTAS -->
+						<E201-C9>¿COTIZA A LA SEGURIDAD SOCIAL?</E201-C9>
+						<!-- TEXTO PREGUNTA -->
+						<E201-C10>SI</E201-C10>
+						<!-- VALOR RESPUESTA -->
+						<E201-C11>EN MIS RATOS LIBRES</E201-C11>
+						<!-- DESCRIPCION RESPUESTA -->
+					</CUESTIONARIO>
+					<E201-C12>ES-LOPD-FIRMA-182-C1-SISSOL.rtf</E201-C12>
+					<!-- TEXTO PIE LOPD -->
+					<E201-C13>ES-PIE-201-C13-SISSOL.rtf</E201-C13>
+					<!--TEXTO PIE  -->
+					<E201-C14>ES-LOPD-ITT-201-C14-SISSOL.rtf</E201-C14>
+					<!-- CLAUSULA LOPD ITT -->
+				</EM201-C10>
+
+				<EM200>
+					<!-- Literal de firmante para el Cuestionario de Salud -->
+					<E200-C10>FIRMANTE</E200-C10>
+				</EM200>
+
+				<EM201>
+					<!-- Literal de firmante para el Cuestionario Laboral -->
+					<E201-C15>FIRMANTE</E201-C15>
+				</EM201>
+
+
+
+				<EM202>
+				<!-- Datos de pago y cobro - - Solicitud de cambio: V3.0 - Evolutivo del documento Solicitud Tomador  
+					Regla asociada: Se muestra si <CODIGOPRODUCTO> es igual a SOLICITUD_TOMADOR
+				-->
+					<DOMICILIO_COBRO_PAGO>DOMICILIO COBRO DE RECIBOS Y/O PAGO DE PRESTACIONES</DOMICILIO_COBRO_PAGO>
+					<!-- DOMICILIO COBRO. PUEDE SER "DOMICILIO COBRO DE RECIBOS Y/O PAGO DE PRESTACIONES" "DOMICILIO COBRO DE RECIBOS Y/O PAGO DE LA INDEMNIZACIÓN" -->
+					<E202-C1>SEMESTRAL</E202-C1>
+					<!-- FORMA DE PAGO -->
+					<E202-C2>ES00</E202-C2>
+					<!-- CODIGO BANCO -->
+					<E202-C3>1111</E202-C3>
+					<!-- OFICINA -->
+					<E202-C4>22</E202-C4>
+					<!-- D.C. -->
+					<E202-C5>3333</E202-C5>
+					<!-- CUENTA -->
+					<E202-C6>4444455555</E202-C6>
+					<!-- CODIGO BANCO -->
+					<E202-C7>6666</E202-C7>
+					<!-- OFICINA -->
+					<E202-C8>77</E202-C8>
+					<!-- D.C. -->
+					<E202-C9>8888</E202-C9>
+					<!-- CUENTA -->
+					<E202-C10>XXXX XXXX XXXX XXXX XXXX</E202-C10>
+					<!-- TARJETA -->
+					<E202-C11>DB</E202-C11>
+					<!-- MEDIO DE PAGO -->
+					<E202-C12>XXXX XXXX XXXX XXXX XXXX</E202-C12>
+					<!-- IBAN -->
+				</EM202>
+				<EM203>
+					<!-- Textos firma --> 
+					<E203-C1>ES-FIRMA-203-C1-SISSOL.rtf</E203-C1>
+					<!-- FIRMA LOPD -->
+					<E203-C2>ES-LOPD-FIRMA-182-C1-SISSOL.rtf</E203-C2>
+					<!-- LOPD -->
+				</EM203>
+				<!-- Documento SIS SOL - Solicitud Tomador -->
+				<EM204>
+					<ID_SOLICITUD>IDXXXXXXXXXX</ID_SOLICITUD>  <!-- ¿Eliminar? -->
+					<FECHA_SOLICITUD>DDMMMYYYY</FECHA_SOLICITUD> <!-- ¿Eliminar? -->
+				</EM204>
+
+			</BLOQUES>
+		</ROOT>
+	</REPORT_DATOS>
+</REPORT>

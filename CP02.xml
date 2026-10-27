@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<REPORT>
+    <REPORT_CONTROL>
+        <SGDDHERRAMIENTA value="HP"/>
+        <SGDDFORMULARIO value="SOL"/>
+        <SGDDDOCID scope="FLD" value="a18c6166-186a-4389-b75d-8de17a581296"/>
+        <SGDDFORMATO_SALIDA value="PDF"/>
+        <SGDDIDIOMA value="es_ES"/>
+        <SGDDVERSIONFORM value="1_0"/>
+        <SGDDCOD_MODULO value="SIS"/>
+        <SGDDCOD_CIA value="41"/>
+        <SGDDSAVEALLOWED value="false"/>
+    </REPORT_CONTROL>
+    <REPORT_DATOS>
+        <ROOT>
+            <ENTIDAD>0002</ENTIDAD>
+            <ACTIVIDAD>EMISION</ACTIVIDAD>
+            <IDIOMA>es_ES</IDIOMA>
+            <CABECERA>CABECERA_MAPFRE_2HUECOS.jpg</CABECERA>
+            <CODIGOPRODUCTO>SOLICITUD_TOMADOR</CODIGOPRODUCTO>
+            <LOGO_ACUERDO/>
+            <ACUERDO>MAPFRE</ACUERDO>
+            <SALIDAS>
+				<SALIDA>
+					<ID>LOCAL</ID>
+					<DOC>
+						<SUBDOC>
+							<ID>SOL</ID>
+							<COPIA>COPIA PARA EL local</COPIA>
+						</SUBDOC>
+					</DOC>
+				</SALIDA>
+                <SALIDA>
+                    <ID>GESTOR_DOCUMENTAL</ID>
+                    <DOC>
+                        <SUBDOC>
+                            <ID>SOL</ID>
+                            <COPIA>Ejemplar para la compañía</COPIA>
+                        </SUBDOC>
+                    </DOC>
+                </SALIDA>
+                <SALIDA>
+                    <ID>FIRMA_ELECTRONICA</ID>
+                    <DOC>
+                        <SUBDOC>
+                            <ID>SOL</ID>
+                            <COPIA>Ejemplar para la compañía</COPIA>
+                        </SUBDOC>
+                    </DOC>
+                </SALIDA>
+            </SALIDAS>
+            <DISTRIBUCION>
+                <MODULO>SIS</MODULO>
+                <NUMERO_REFERENCIA>2642611E0001108</NUMERO_REFERENCIA>
+                <DUPLEX_MODE>TRUE</DUPLEX_MODE>
+				<LOCAL>
+					<FORMATO>OUTPUT_LOCAL.pdf</FORMATO>
+					<BLOQUEAR_IMPRESION>N</BLOQUEAR_IMPRESION>				
+				</LOCAL>
+                <GESTOR_DOCUMENTAL>
+                    <GD_MODE>API-GD</GD_MODE>
+                    <GD_API_GD_CONF>EMI_SALUD</GD_API_GD_CONF>
+                    <GD_USUARIO>APP-WPS</GD_USUARIO>
+                    <GD_ATRIBUTO_DOC>
+                        <GD_ATRIBUTO_NOMBRE>titulo</GD_ATRIBUTO_NOMBRE>
+                        <GD_ATRIBUTO_VALOR>SOLICITUD DE SEGURO</GD_ATRIBUTO_VALOR>
+                    </GD_ATRIBUTO_DOC>
+                    <GD_ATRIBUTO_DOC>
+                        <GD_ATRIBUTO_NOMBRE>expediente</GD_ATRIBUTO_NOMBRE>
+                        <GD_ATRIBUTO_VALOR>2642611E0001108</GD_ATRIBUTO_VALOR>
+                    </GD_ATRIBUTO_DOC>
+                    <GD_ATRIBUTO_DOC>
+                        <GD_ATRIBUTO_NOMBRE>subtipo</GD_ATRIBUTO_NOMBRE>
+                        <GD_ATRIBUTO_VALOR>Soli_Salu</GD_ATRIBUTO_VALOR>
+                    </GD_ATRIBUTO_DOC>
+                    <GD_ATRIBUTO_DOC>
+                        <GD_ATRIBUTO_NOMBRE>entidad</GD_ATRIBUTO_NOMBRE>
+                        <GD_ATRIBUTO_VALOR>0002</GD_ATRIBUTO_VALOR>
+                    </GD_ATRIBUTO_DOC>
+                    <GD_ATRIBUTO_DOC>
+                        <GD_ATRIBUTO_NOMBRE>app_origen</GD_ATRIBUTO_NOMBRE>
+                        <GD_ATRIBUTO_VALOR>NSEc</GD_ATRIBUTO_VALOR>
+                    </GD_ATRIBUTO_DOC>
+                    <GD_ATRIBUTO_DOC>
+                        <GD_ATRIBUTO_NOMBRE>fecha_documento</GD_ATRIBUTO_NOMBRE>
+                        <GD_ATRIBUTO_VALOR>22/10/2026 02:00:00</GD_ATRIBUTO_VALOR>
+                    </GD_ATRIBUTO_DOC>
+                    <GD_ATRIBUTO_DOC>
+                        <GD_ATRIBUTO_NOMBRE>copia</GD_ATRIBUTO_NOMBRE>
+                        <GD_ATRIBUTO_VALOR>false</GD_ATRIBUTO_VALOR>
+                    </GD_ATRIBUTO_DOC>
+                    <GD_ATRIBUTO_DOC>
+                        <GD_ATRIBUTO_NOMBRE>firmado</GD_ATRIBUTO_NOMBRE>
+                        <GD_ATRIBUTO_VALOR>false</GD_ATRIBUTO_VALOR>
+                    </GD_ATRIBUTO_DOC>
+                    <GD_ATRIBUTO_DOC>
+                        <GD_ATRIBUTO_NOMBRE>nuuma</GD_ATRIBUTO_NOMBRE>
+                        <GD_ATRIBUTO_VALOR>NSECENT</GD_ATRIBUTO_VALOR>
+                    </GD_ATRIBUTO_DOC>
+                    <GD_ATRIBUTO_DOC>
+                        <GD_ATRIBUTO_NOMBRE>poliza</GD_ATRIBUTO_NOMBRE>
+                        <GD_ATRIBUTO_VALOR/>
+                    </GD_ATRIBUTO_DOC>
+                    <GD_ATRIBUTO_DOC>
+                        <GD_ATRIBUTO_NOMBRE>suplemento</GD_ATRIBUTO_NOMBRE>
+                        <GD_ATRIBUTO_VALOR>000</GD_ATRIBUTO_VALOR>
+                    </GD_ATRIBUTO_DOC>
+                    <GD_ATRIBUTO_DOC>
+                        <GD_ATRIBUTO_NOMBRE>ramo</GD_ATRIBUTO_NOMBRE>
+                        <GD_ATRIBUTO_VALOR>264</GD_ATRIBUTO_VALOR>
+                    </GD_ATRIBUTO_DOC>
+                    <GD_ATRIBUTO_DOC>
+                        <GD_ATRIBUTO_NOMBRE>num_identificacion</GD_ATRIBUTO_NOMBRE>
+                        <GD_ATRIBUTO_VALOR>B09754086</GD_ATRIBUTO_VALOR>
+                    </GD_ATRIBUTO_DOC>
+                    <GD_ATRIBUTO_DOC>
+                        <GD_ATRIBUTO_NOMBRE>solicitud</GD_ATRIBUTO_NOMBRE>
+                        <GD_ATRIBUTO_VALOR>2642611E0001108</GD_ATRIBUTO_VALOR>
+                    </GD_ATRIBUTO_DOC>
+                    <OCCURRENCE>1</OCCURRENCE>
+                </GESTOR_DOCUMENTAL>
+                <FIRMA_ELECTRONICA>
+                    <FE_MODO>API-FIRMA</FE_MODO>
+                    <FE_APLICACION_NEGOCIO>NSECSalud</FE_APLICACION_NEGOCIO>
+                    <FE_PAIS>ESP</FE_PAIS>
+                    <FE_IDIOMA>es_ES</FE_IDIOMA>
+                    <FE_ENTIDAD>0002</FE_ENTIDAD>
+                    <FE_NUUMA>NSECENT</FE_NUUMA>
+                    <FE_EMAIL_INICIAL>true</FE_EMAIL_INICIAL>
+                    <FE_REFERENCIA_NEGOCIO>2642611E0001108NA_1</FE_REFERENCIA_NEGOCIO>
+                    <FE_TIPO_FIRMA>01</FE_TIPO_FIRMA>
+                    <FE_OFICINA>9799</FE_OFICINA>
+                    <FE_MULTIFIRMA>false</FE_MULTIFIRMA>
+                    <FE_MULTIDOCUMENTO>false</FE_MULTIDOCUMENTO>
+                    <FE_DOCUMENTOS>
+                        <FE_DOCUMENTO>
+                            <FE_REQUIERE_FIRMA_MAPFRE>0</FE_REQUIERE_FIRMA_MAPFRE>
+                            <FE_NOMBRE_DOCUMENTO>2642611E0001108_20261022000000.pdf</FE_NOMBRE_DOCUMENTO>
+                            <FE_OPCION_ARCHIVO>2</FE_OPCION_ARCHIVO>
+                            <FE_CODIGO_SERIE>NORMALIZADO</FE_CODIGO_SERIE>
+                            <FE_TIPO_DOCUMENTO>Soli_Salu</FE_TIPO_DOCUMENTO>
+                            <FE_FIRMANTES>
+                                <FE_FIRMANTE>
+                                    <FE_DOCUMENTO_IDENTIDAD>B09754086</FE_DOCUMENTO_IDENTIDAD>
+                                    <FE_TIPO_DOCUMENTO>CIF</FE_TIPO_DOCUMENTO>
+                                    <FE_NOMBRE>GRUPO MERIDIANO SL</FE_NOMBRE>
+                                    <FE_EMAIL>benave3@mapfre.com</FE_EMAIL>
+                                    <FE_TLF_MOVIL>650145574</FE_TLF_MOVIL>
+                                    <FE_ORDEN_FIRMA>1</FE_ORDEN_FIRMA>
+                                </FE_FIRMANTE>
+                            </FE_FIRMANTES>
+                        </FE_DOCUMENTO>
+                    </FE_DOCUMENTOS>
+                    <OCCURRENCE>2</OCCURRENCE>
+                </FIRMA_ELECTRONICA>
+            </DISTRIBUCION>
+            <QR>
+                <VERSION>01</VERSION>
+                <COD_SERIE>EMI_SALUD</COD_SERIE>
+                <COD_DOCUMENTO>Soli_Salu</COD_DOCUMENTO>
+                <TIPO_INFO>2642611E0001108#000#000000000#20261022020000</TIPO_INFO>
+                <ENTIDAD>0002</ENTIDAD>
+                <SUBCENTRAL>8081</SUBCENTRAL>
+            </QR>
+            <BLOQUES>
+                <EM020>
+                    <E20-C2>SOLICITUD TOMADOR</E20-C2>
+                    <E20-C4>SEGUROS DE SALUD COLECTIVO</E20-C4>
+                    <E20-C8>CABECERA_MAPFRE_2HUECOS.jpg</E20-C8>
+                    <E20-C6>2642611E0001108</E20-C6>
+                    <E20-C7>22/10/2026</E20-C7>
+                </EM020>
+                <EM030>
+                    <E30-C1>JERAI FABRIGAS</E30-C1>
+                    <E30-C3>9799</E30-C3>
+                    <E30-C4>0970999</E30-C4>
+                    <E30-C5>CL LLODIO, 12</E30-C5>
+                    <E30-C6>28034</E30-C6>
+                    <E30-C7>MADRID</E30-C7>
+                </EM030>
+                <EM035>
+                    <E35-C1>GRUPO MERIDIANO SL</E35-C1>
+                    <E35-C2>CULTIVO DE ARROZ</E35-C2>
+                    <E35-C3>ANUAL PRORROGABLE CON FIJACION DE VENCIMIENTO</E35-C3>
+                    <E35-C4>22/10/2026</E35-C4>
+                    <E35-C5>22/10/2027</E35-C5>
+                </EM035>
+                <EM046>
+                    <!-- 
+					Datos del Tomador - - Solicitud de cambio: V3.0 - Evolutivo del documento Solicitud Tomador  
+					Regla asociada: Se muestra si <CODIGOPRODUCTO> es igual a SOLICITUD_TOMADOR
+				-->
+					<E46-C1>Felipe Gomez</E46-C1>
+					<!-- Nombre Tomador -->
+					<E46-C2>55.665.333</E46-C2>
+					<!-- Docuemento ID  Tomador -->
+					<E46-C3>Calle de la Avellana 18</E46-C3>
+					<!-- Direccion  Tomador -->
+					<E46-C4>28030</E46-C4>
+					<!-- CP  Tomador -->
+					<E46-C5>Palencia</E46-C5>
+					<!-- Localidad  Tomador -->
+					<E46-C6>912222222</E46-C6>
+					<!-- Telefono fijo  Tomador -->
+					<E46-C7>Caceres</E46-C7>
+					<!-- Provincia  Tomador -->
+					<E46-C8>667555555</E46-C8>
+					<!-- Telefono movil  Tomador -->
+					<E46-C9>felipegomez@email.com</E46-C9>
+					<!-- Email  Tomador -->
+					<E46-C10>28/05/1973</E46-C10>
+					<!-- Fecha Nacimiento  Tomador -->
+					<E46-C11>NIF</E46-C11>
+					<!-- RAZON SOCIAL -->
+                </EM046>
+                <EM048>
+                    <E48-C1>SERGIO BENAVENTE DEL CAMPO</E48-C1>
+                    <E48-C2>50315839G</E48-C2>
+                    <E48-C3>650145574</E48-C3>
+                    <E48-C4>BENAVE3@MAPFRE.COM</E48-C4>
+                </EM048>
+                <EM160>
+                    <E160_TABLA-1>
+                        <E160-C1>Empleados y familiares</E160-C1>
+                        <E160-C2>PYME</E160-C2>
+                        <E160-C3>Asistencia sanitaria completa</E160-C3>
+                        <E160-C4>Tomador</E160-C4>
+                        <E160-C5>5</E160-C5>
+                        <E160-C6>Pareja de hecho</E160-C6>
+                        <E160-C6>Cónyuge</E160-C6>
+                        <E160-C6>Titular</E160-C6>
+                        <E160-C6>Hijo</E160-C6>
+                        <E160_GARANTIAS>
+                            <E160-C7>Asistencia primaria</E160-C7>
+                            <E160-C8>Especialidad/Garantia</E160-C8>
+                            <E160-C8>Medicina general</E160-C8>
+                            <E160-C8>Pediatría</E160-C8>
+                            <E160-C8>Enfermería</E160-C8>
+                        </E160_GARANTIAS>
+                        <E160_GARANTIAS>
+                            <E160-C7>Medios de diagnóstico</E160-C7>
+                            <E160-C8>Especialidad/Garantia</E160-C8>
+                            <E160-C8>Medios de diagnóstico básicos</E160-C8>
+                            <E160-C8>Medios de diagnóstico específicos</E160-C8>
+                        </E160_GARANTIAS>
+                        <E160_GARANTIAS>
+                            <E160-C7>Medicina especializada ambulatoria</E160-C7>
+                            <E160-C8>Especialidad/Garantia</E160-C8>
+                            <E160-C8>Asistencia especializada</E160-C8>
+                            <E160-C8>Ginecología y obstetricia</E160-C8>
+                            <E160-C8>Odonto-estomatología básica</E160-C8>
+                            <E160-C8>Garantía bucodental</E160-C8>
+                            <E160-C8>Psicoterapia</E160-C8>
+                            <E160-C8>Osteopatía</E160-C8>
+                            <E160-C8>Estudio biomecánico de la marcha</E160-C8>
+                            <E160-C8>Tratamiento de esterilidad de la pareja</E160-C8>
+                        </E160_GARANTIAS>
+                        <E160_GARANTIAS>
+                            <E160-C7>Asistencia hospitalaria</E160-C7>
+                            <E160-C8>Especialidad/Garantia</E160-C8>
+                            <E160-C8>Hospitalización médica y quirúrgica</E160-C8>
+                            <E160-C8>Prótesis e implantes</E160-C8>
+                            <E160-C8>Hospitalización obstétrica</E160-C8>
+                            <E160-C8>Urgencias hospitalarias</E160-C8>
+                            <E160-C8>Transporte sanitario</E160-C8>
+                        </E160_GARANTIAS>
+                        <E160_GARANTIAS>
+                            <E160-C7>Garantías secundarias</E160-C7>
+                            <E160-C8>Especialidad/Garantia</E160-C8>
+                            <E160-C8>Segundo diagnostico internacional</E160-C8>
+                            <E160-C8>Acceso a red hospitalaria de EEUU</E160-C8>
+                            <E160-C8>Adopción</E160-C8>
+                            <E160-C8>Asistencia en viaje</E160-C8>
+                            <E160-C8>Fallecimiento por accidente</E160-C8>
+                        </E160_GARANTIAS>
+                        <E160-C10>No</E160-C10>
+                    </E160_TABLA-1>
+                </EM160>
+                <EM175>
+                    <E175-C3>ES-EXTRACTO-175-C3-PROD-164-2026.rtf</E175-C3>
+                    <E175-C4>El Tomador del Seguro</E175-C4>
+                </EM175>
+                <EM180>
+                    <E180-C1>ES-LOPD-2018-MAPFRE-180-C1.rtf</E180-C1>
+                    <E180-C3>El Tomador del Seguro</E180-C3>
+                </EM180>
+                <EM202>
+                    <E202-C1>Mensual</E202-C1>
+                    <E202-C11>Domiciliación Bancaria</E202-C11>
+                    <E202-C12>ES6621000418401234567891</E202-C12>
+                </EM202>
+            </BLOQUES>
+        </ROOT>
+    </REPORT_DATOS>
+</REPORT>
